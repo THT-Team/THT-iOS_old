@@ -18,6 +18,10 @@
 		D53A21A42A5C2ECE00D3516F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D53A21A32A5C2ECE00D3516F /* SnapKit */; };
 		D53A21A72A5C2EE700D3516F /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D53A21A62A5C2EE700D3516F /* Moya */; };
 		D5B6BD422A5C307A00668C16 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D5B6BD412A5C307A00668C16 /* Kingfisher */; };
+		D5B6BD442A5C351200668C16 /* BaseTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD432A5C351200668C16 /* BaseTargetType.swift */; };
+		D5B6BD462A5C35D100668C16 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD452A5C35D100668C16 /* ResponseData.swift */; };
+		D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD472A5C370C00668C16 /* Networkable.swift */; };
+		D5B6BD4A2A5C372B00668C16 /* NetworkLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD492A5C372B00668C16 /* NetworkLoggerPlugin.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		D53A218A2A5C27F800D3516F /* FallingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingUITests.swift; sourceTree = "<group>"; };
 		D53A218C2A5C27F800D3516F /* FallingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D53A219F2A5C2DCF00D3516F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		D5B6BD432A5C351200668C16 /* BaseTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTargetType.swift; sourceTree = "<group>"; };
+		D5B6BD452A5C35D100668C16 /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
+		D5B6BD472A5C370C00668C16 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
+		D5B6BD492A5C372B00668C16 /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +183,10 @@
 		D53A21A12A5C2EAF00D3516F /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				D5B6BD432A5C351200668C16 /* BaseTargetType.swift */,
+				D5B6BD452A5C35D100668C16 /* ResponseData.swift */,
+				D5B6BD472A5C370C00668C16 /* Networkable.swift */,
+				D5B6BD492A5C372B00668C16 /* NetworkLoggerPlugin.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -328,7 +340,11 @@
 			files = (
 				D53A21A02A5C2DCF00D3516F /* SplashViewController.swift in Sources */,
 				D53A216A2A5C27F700D3516F /* AppDelegate.swift in Sources */,
+				D5B6BD462A5C35D100668C16 /* ResponseData.swift in Sources */,
 				D53A216C2A5C27F700D3516F /* SceneDelegate.swift in Sources */,
+				D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */,
+				D5B6BD442A5C351200668C16 /* BaseTargetType.swift in Sources */,
+				D5B6BD4A2A5C372B00668C16 /* NetworkLoggerPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
