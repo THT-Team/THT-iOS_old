@@ -22,6 +22,9 @@
 		D5B6BD462A5C35D100668C16 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD452A5C35D100668C16 /* ResponseData.swift */; };
 		D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD472A5C370C00668C16 /* Networkable.swift */; };
 		D5B6BD4A2A5C372B00668C16 /* NetworkLoggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD492A5C372B00668C16 /* NetworkLoggerPlugin.swift */; };
+		D5B6BD4C2A5C37F000668C16 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */; };
+		D5B6BD4F2A5C380C00668C16 /* UserTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD4E2A5C380C00668C16 /* UserTarget.swift */; };
+		D5B6BD512A5C40EA00668C16 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD502A5C40EA00668C16 /* UserRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,9 @@
 		D5B6BD452A5C35D100668C16 /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
 		D5B6BD472A5C370C00668C16 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
 		D5B6BD492A5C372B00668C16 /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
+		D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		D5B6BD4E2A5C380C00668C16 /* UserTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTarget.swift; sourceTree = "<group>"; };
+		D5B6BD502A5C40EA00668C16 /* UserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -194,8 +200,19 @@
 		D53A21A82A5C2F5800D3516F /* API */ = {
 			isa = PBXGroup;
 			children = (
+				D5B6BD4D2A5C37FA00668C16 /* User */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		D5B6BD4D2A5C37FA00668C16 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */,
+				D5B6BD4E2A5C380C00668C16 /* UserTarget.swift */,
+				D5B6BD502A5C40EA00668C16 /* UserRequest.swift */,
+			);
+			path = User;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,11 +356,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D53A21A02A5C2DCF00D3516F /* SplashViewController.swift in Sources */,
+				D5B6BD4C2A5C37F000668C16 /* UserAPI.swift in Sources */,
 				D53A216A2A5C27F700D3516F /* AppDelegate.swift in Sources */,
+				D5B6BD4F2A5C380C00668C16 /* UserTarget.swift in Sources */,
 				D5B6BD462A5C35D100668C16 /* ResponseData.swift in Sources */,
 				D53A216C2A5C27F700D3516F /* SceneDelegate.swift in Sources */,
 				D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */,
 				D5B6BD442A5C351200668C16 /* BaseTargetType.swift in Sources */,
+				D5B6BD512A5C40EA00668C16 /* UserRequest.swift in Sources */,
 				D5B6BD4A2A5C372B00668C16 /* NetworkLoggerPlugin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

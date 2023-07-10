@@ -22,3 +22,16 @@ extension BaseTargetType {
         return header
     }
 }
+
+extension Encodable {
+    func toDictionary() -> [String: Any] {
+        do {
+            let data = try JSONEncoder().encode(self)
+            let dic = try JSONSerialization.jsonObject(with: data, options: [.fragmentsAllowed]) as? [String: Any]
+
+            return dic ?? [:]
+        } catch {
+            return [:]
+        }
+    }
+}
