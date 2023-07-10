@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		D53A216A2A5C27F700D3516F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A21692A5C27F700D3516F /* AppDelegate.swift */; };
 		D53A216C2A5C27F700D3516F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A216B2A5C27F700D3516F /* SceneDelegate.swift */; };
-		D53A216E2A5C27F700D3516F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A216D2A5C27F700D3516F /* ViewController.swift */; };
-		D53A21712A5C27F700D3516F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53A216F2A5C27F700D3516F /* Main.storyboard */; };
 		D53A21732A5C27F800D3516F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53A21722A5C27F800D3516F /* Assets.xcassets */; };
 		D53A21762A5C27F800D3516F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D53A21742A5C27F800D3516F /* LaunchScreen.storyboard */; };
 		D53A21812A5C27F800D3516F /* FallingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A21802A5C27F800D3516F /* FallingTests.swift */; };
 		D53A218B2A5C27F800D3516F /* FallingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A218A2A5C27F800D3516F /* FallingUITests.swift */; };
 		D53A218D2A5C27F800D3516F /* FallingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A218C2A5C27F800D3516F /* FallingUITestsLaunchTests.swift */; };
+		D53A21A02A5C2DCF00D3516F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A219F2A5C2DCF00D3516F /* SplashViewController.swift */; };
+		D53A21A42A5C2ECE00D3516F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D53A21A32A5C2ECE00D3516F /* SnapKit */; };
+		D53A21A72A5C2EE700D3516F /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D53A21A62A5C2EE700D3516F /* Moya */; };
+		D5B6BD422A5C307A00668C16 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D5B6BD412A5C307A00668C16 /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +41,6 @@
 		D53A21662A5C27F700D3516F /* Falling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Falling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53A21692A5C27F700D3516F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D53A216B2A5C27F700D3516F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D53A216D2A5C27F700D3516F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D53A21702A5C27F700D3516F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D53A21722A5C27F800D3516F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D53A21752A5C27F800D3516F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D53A21772A5C27F800D3516F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,7 @@
 		D53A21862A5C27F800D3516F /* FallingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53A218A2A5C27F800D3516F /* FallingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingUITests.swift; sourceTree = "<group>"; };
 		D53A218C2A5C27F800D3516F /* FallingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D53A219F2A5C2DCF00D3516F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B6BD422A5C307A00668C16 /* Kingfisher in Frameworks */,
+				D53A21A72A5C2EE700D3516F /* Moya in Frameworks */,
+				D53A21A42A5C2ECE00D3516F /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,10 +103,12 @@
 		D53A21682A5C27F700D3516F /* Falling */ = {
 			isa = PBXGroup;
 			children = (
+				D53A219B2A5C29A600D3516F /* DataLayer */,
+				D53A219A2A5C282100D3516F /* Feature */,
+				D53A21992A5C281400D3516F /* Common */,
 				D53A21692A5C27F700D3516F /* AppDelegate.swift */,
 				D53A216B2A5C27F700D3516F /* SceneDelegate.swift */,
-				D53A216D2A5C27F700D3516F /* ViewController.swift */,
-				D53A216F2A5C27F700D3516F /* Main.storyboard */,
+				D53A219F2A5C2DCF00D3516F /* SplashViewController.swift */,
 				D53A21722A5C27F800D3516F /* Assets.xcassets */,
 				D53A21742A5C27F800D3516F /* LaunchScreen.storyboard */,
 				D53A21772A5C27F800D3516F /* Info.plist */,
@@ -127,6 +133,59 @@
 			path = FallingUITests;
 			sourceTree = "<group>";
 		};
+		D53A21992A5C281400D3516F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D53A219A2A5C282100D3516F /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				D53A219D2A5C29D300D3516F /* Chat */,
+				D53A219C2A5C29C400D3516F /* Sign */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		D53A219B2A5C29A600D3516F /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				D53A21A82A5C2F5800D3516F /* API */,
+				D53A21A12A5C2EAF00D3516F /* Network */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		D53A219C2A5C29C400D3516F /* Sign */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sign;
+			sourceTree = "<group>";
+		};
+		D53A219D2A5C29D300D3516F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		D53A21A12A5C2EAF00D3516F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D53A21A82A5C2F5800D3516F /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +202,11 @@
 			dependencies = (
 			);
 			name = Falling;
+			packageProductDependencies = (
+				D53A21A32A5C2ECE00D3516F /* SnapKit */,
+				D53A21A62A5C2EE700D3516F /* Moya */,
+				D5B6BD412A5C307A00668C16 /* Kingfisher */,
+			);
 			productName = Falling;
 			productReference = D53A21662A5C27F700D3516F /* Falling.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +279,11 @@
 				Base,
 			);
 			mainGroup = D53A215D2A5C27F700D3516F;
+			packageReferences = (
+				D53A21A22A5C2ECE00D3516F /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D53A21A52A5C2EE700D3516F /* XCRemoteSwiftPackageReference "Moya" */,
+				D5B6BD402A5C307A00668C16 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = D53A21672A5C27F700D3516F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,7 +302,6 @@
 			files = (
 				D53A21762A5C27F800D3516F /* LaunchScreen.storyboard in Resources */,
 				D53A21732A5C27F800D3516F /* Assets.xcassets in Resources */,
-				D53A21712A5C27F700D3516F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +326,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D53A216E2A5C27F700D3516F /* ViewController.swift in Sources */,
+				D53A21A02A5C2DCF00D3516F /* SplashViewController.swift in Sources */,
 				D53A216A2A5C27F700D3516F /* AppDelegate.swift in Sources */,
 				D53A216C2A5C27F700D3516F /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +365,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D53A216F2A5C27F700D3516F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D53A21702A5C27F700D3516F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D53A21742A5C27F800D3516F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -441,9 +501,8 @@
 				INFOPLIST_FILE = Falling/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,9 +510,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tht.falling.Falling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -468,9 +530,8 @@
 				INFOPLIST_FILE = Falling/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -478,9 +539,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.tht.falling.Falling;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -596,6 +660,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D53A21A22A5C2ECE00D3516F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		D53A21A52A5C2EE700D3516F /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D5B6BD402A5C307A00668C16 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D53A21A32A5C2ECE00D3516F /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D53A21A22A5C2ECE00D3516F /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D53A21A62A5C2EE700D3516F /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D53A21A52A5C2EE700D3516F /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		D5B6BD412A5C307A00668C16 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5B6BD402A5C307A00668C16 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D53A215E2A5C27F700D3516F /* Project object */;
 }
