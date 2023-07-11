@@ -16,6 +16,7 @@
 		D53A218D2A5C27F800D3516F /* FallingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A218C2A5C27F800D3516F /* FallingUITestsLaunchTests.swift */; };
 		D53A21A02A5C2DCF00D3516F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A219F2A5C2DCF00D3516F /* SplashViewController.swift */; };
 		D57E63AB2A5D159B00C40BEB /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E63AA2A5D159B00C40BEB /* APIError.swift */; };
+		D57E63AD2A5D18D000C40BEB /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E63AC2A5D18D000C40BEB /* ChatListViewController.swift */; };
 		D5B6BD442A5C351200668C16 /* BaseTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD432A5C351200668C16 /* BaseTargetType.swift */; };
 		D5B6BD462A5C35D100668C16 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD452A5C35D100668C16 /* ResponseData.swift */; };
 		D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD472A5C370C00668C16 /* Networkable.swift */; };
@@ -56,6 +57,7 @@
 		D53A218C2A5C27F800D3516F /* FallingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FallingUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D53A219F2A5C2DCF00D3516F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		D57E63AA2A5D159B00C40BEB /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		D57E63AC2A5D18D000C40BEB /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
 		D5B6BD432A5C351200668C16 /* BaseTargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTargetType.swift; sourceTree = "<group>"; };
 		D5B6BD452A5C35D100668C16 /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
 		D5B6BD472A5C370C00668C16 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
@@ -178,6 +180,8 @@
 		D53A219D2A5C29D300D3516F /* Chat */ = {
 			isa = PBXGroup;
 			children = (
+				D57E63AF2A5D18DF00C40BEB /* Chatting */,
+				D57E63AE2A5D18DA00C40BEB /* List */,
 			);
 			path = Chat;
 			sourceTree = "<group>";
@@ -200,6 +204,21 @@
 				D5B6BD4D2A5C37FA00668C16 /* User */,
 			);
 			path = API;
+			sourceTree = "<group>";
+		};
+		D57E63AE2A5D18DA00C40BEB /* List */ = {
+			isa = PBXGroup;
+			children = (
+				D57E63AC2A5D18D000C40BEB /* ChatListViewController.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		D57E63AF2A5D18DF00C40BEB /* Chatting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chatting;
 			sourceTree = "<group>";
 		};
 		D5B6BD4D2A5C37FA00668C16 /* User */ = {
@@ -352,6 +371,7 @@
 				D5B6BD4F2A5C380C00668C16 /* UserTarget.swift in Sources */,
 				D5B6BD462A5C35D100668C16 /* ResponseData.swift in Sources */,
 				D53A216C2A5C27F700D3516F /* SceneDelegate.swift in Sources */,
+				D57E63AD2A5D18D000C40BEB /* ChatListViewController.swift in Sources */,
 				D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */,
 				D5B6BD442A5C351200668C16 /* BaseTargetType.swift in Sources */,
 				D5B6BD512A5C40EA00668C16 /* UserRequest.swift in Sources */,
