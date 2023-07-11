@@ -10,5 +10,5 @@ import Foundation
 struct SignUpRequest: Codable {
 
     // property들
-
+    
 }
