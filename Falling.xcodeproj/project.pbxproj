@@ -17,6 +17,9 @@
 		D53A21A02A5C2DCF00D3516F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A219F2A5C2DCF00D3516F /* SplashViewController.swift */; };
 		D57E63AB2A5D159B00C40BEB /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E63AA2A5D159B00C40BEB /* APIError.swift */; };
 		D57E63AD2A5D18D000C40BEB /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57E63AC2A5D18D000C40BEB /* ChatListViewController.swift */; };
+		D57E63B22A5D71B500C40BEB /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = D57E63B12A5D71B500C40BEB /* Starscream */; };
+		D57E63B52A5D71CC00C40BEB /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D57E63B42A5D71CC00C40BEB /* Moya */; };
+		D57E63B82A5D71DA00C40BEB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D57E63B72A5D71DA00C40BEB /* SnapKit */; };
 		D5B6BD442A5C351200668C16 /* BaseTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD432A5C351200668C16 /* BaseTargetType.swift */; };
 		D5B6BD462A5C35D100668C16 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD452A5C35D100668C16 /* ResponseData.swift */; };
 		D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD472A5C370C00668C16 /* Networkable.swift */; };
@@ -72,6 +75,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57E63B82A5D71DA00C40BEB /* SnapKit in Frameworks */,
+				D57E63B52A5D71CC00C40BEB /* Moya in Frameworks */,
+				D57E63B22A5D71B500C40BEB /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +254,9 @@
 			);
 			name = Falling;
 			packageProductDependencies = (
+				D57E63B12A5D71B500C40BEB /* Starscream */,
+				D57E63B42A5D71CC00C40BEB /* Moya */,
+				D57E63B72A5D71DA00C40BEB /* SnapKit */,
 			);
 			productName = Falling;
 			productReference = D53A21662A5C27F700D3516F /* Falling.app */;
@@ -322,6 +331,9 @@
 			);
 			mainGroup = D53A215D2A5C27F700D3516F;
 			packageReferences = (
+				D57E63B02A5D71B500C40BEB /* XCRemoteSwiftPackageReference "Starscream" */,
+				D57E63B32A5D71CC00C40BEB /* XCRemoteSwiftPackageReference "Moya" */,
+				D57E63B62A5D71DA00C40BEB /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = D53A21672A5C27F700D3516F /* Products */;
 			projectDirPath = "";
@@ -708,6 +720,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D57E63B02A5D71B500C40BEB /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		D57E63B32A5D71CC00C40BEB /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D57E63B62A5D71DA00C40BEB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D57E63B12A5D71B500C40BEB /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D57E63B02A5D71B500C40BEB /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		D57E63B42A5D71CC00C40BEB /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D57E63B32A5D71CC00C40BEB /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		D57E63B72A5D71DA00C40BEB /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D57E63B62A5D71DA00C40BEB /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D53A215E2A5C27F700D3516F /* Project object */;
 }
