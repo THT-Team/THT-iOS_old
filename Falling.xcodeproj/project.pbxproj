@@ -24,6 +24,8 @@
 		D5B6BD4C2A5C37F000668C16 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */; };
 		D5B6BD4F2A5C380C00668C16 /* UserTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD4E2A5C380C00668C16 /* UserTarget.swift */; };
 		D5B6BD512A5C40EA00668C16 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD502A5C40EA00668C16 /* UserRequest.swift */; };
+		FE1185D92A5EEE3A007E9DFA /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = FE1185D82A5EEE3A007E9DFA /* Moya */; };
+		FE1185DB2A5EEE3A007E9DFA /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = FE1185DA2A5EEE3A007E9DFA /* RxMoya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,7 +64,7 @@
 		D5B6BD452A5C35D100668C16 /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
 		D5B6BD472A5C370C00668C16 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
 		D5B6BD492A5C372B00668C16 /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
-		D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; tabWidth = 4; };
 		D5B6BD4E2A5C380C00668C16 /* UserTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTarget.swift; sourceTree = "<group>"; };
 		D5B6BD502A5C40EA00668C16 /* UserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1185DB2A5EEE3A007E9DFA /* RxMoya in Frameworks */,
+				FE1185D92A5EEE3A007E9DFA /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,8 +129,10 @@
 				D53A21742A5C27F800D3516F /* LaunchScreen.storyboard */,
 				D53A21772A5C27F800D3516F /* Info.plist */,
 			);
+			indentWidth = 4;
 			path = Falling;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		D53A217F2A5C27F800D3516F /* FallingTests */ = {
 			isa = PBXGroup;
@@ -248,6 +254,8 @@
 			);
 			name = Falling;
 			packageProductDependencies = (
+				FE1185D82A5EEE3A007E9DFA /* Moya */,
+				FE1185DA2A5EEE3A007E9DFA /* RxMoya */,
 			);
 			productName = Falling;
 			productReference = D53A21662A5C27F700D3516F /* Falling.app */;
@@ -322,6 +330,7 @@
 			);
 			mainGroup = D53A215D2A5C27F700D3516F;
 			packageReferences = (
+				FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = D53A21672A5C27F700D3516F /* Products */;
 			projectDirPath = "";
@@ -708,6 +717,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE1185D82A5EEE3A007E9DFA /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		FE1185DA2A5EEE3A007E9DFA /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D53A215E2A5C27F700D3516F /* Project object */;
 }
