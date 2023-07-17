@@ -21,6 +21,7 @@ class SignUpRootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 		
+		
     }
     
 
