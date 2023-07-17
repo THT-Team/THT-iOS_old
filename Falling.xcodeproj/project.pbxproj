@@ -20,6 +20,7 @@
 		D57E63B22A5D71B500C40BEB /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = D57E63B12A5D71B500C40BEB /* Starscream */; };
 		D57E63B52A5D71CC00C40BEB /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D57E63B42A5D71CC00C40BEB /* Moya */; };
 		D57E63B82A5D71DA00C40BEB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D57E63B72A5D71DA00C40BEB /* SnapKit */; };
+		D5AE5D4F2A6037D4000188AF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D5AE5D4E2A6037D4000188AF /* SnapKit */; };
 		D5B6BD442A5C351200668C16 /* BaseTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD432A5C351200668C16 /* BaseTargetType.swift */; };
 		D5B6BD462A5C35D100668C16 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD452A5C35D100668C16 /* ResponseData.swift */; };
 		D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD472A5C370C00668C16 /* Networkable.swift */; };
@@ -27,6 +28,13 @@
 		D5B6BD4C2A5C37F000668C16 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */; };
 		D5B6BD4F2A5C380C00668C16 /* UserTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD4E2A5C380C00668C16 /* UserTarget.swift */; };
 		D5B6BD512A5C40EA00668C16 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD502A5C40EA00668C16 /* UserRequest.swift */; };
+		D5FE31FA2A650CA0000B284D /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D5FE31F92A650CA0000B284D /* RxCocoa */; };
+		D5FE31FC2A650CA0000B284D /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = D5FE31FB2A650CA0000B284D /* RxRelay */; };
+		D5FE31FE2A650CA0000B284D /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D5FE31FD2A650CA0000B284D /* RxSwift */; };
+		D5FE32012A651014000B284D /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = D5FE32002A651014000B284D /* Kingfisher */; };
+		D5FE32042A651044000B284D /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = D5FE32032A651044000B284D /* Starscream */; };
+		FE1185D92A5EEE3A007E9DFA /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = FE1185D82A5EEE3A007E9DFA /* Moya */; };
+		FE1185DB2A5EEE3A007E9DFA /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = FE1185DA2A5EEE3A007E9DFA /* RxMoya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,7 +73,7 @@
 		D5B6BD452A5C35D100668C16 /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
 		D5B6BD472A5C370C00668C16 /* Networkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networkable.swift; sourceTree = "<group>"; };
 		D5B6BD492A5C372B00668C16 /* NetworkLoggerPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkLoggerPlugin.swift; sourceTree = "<group>"; };
-		D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; };
+		D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; tabWidth = 4; };
 		D5B6BD4E2A5C380C00668C16 /* UserTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTarget.swift; sourceTree = "<group>"; };
 		D5B6BD502A5C40EA00668C16 /* UserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +86,14 @@
 				D57E63B82A5D71DA00C40BEB /* SnapKit in Frameworks */,
 				D57E63B52A5D71CC00C40BEB /* Moya in Frameworks */,
 				D57E63B22A5D71B500C40BEB /* Starscream in Frameworks */,
+				D5FE31FE2A650CA0000B284D /* RxSwift in Frameworks */,
+				D5FE31FC2A650CA0000B284D /* RxRelay in Frameworks */,
+				D5FE32012A651014000B284D /* Kingfisher in Frameworks */,
+				D5AE5D4F2A6037D4000188AF /* SnapKit in Frameworks */,
+				FE1185DB2A5EEE3A007E9DFA /* RxMoya in Frameworks */,
+				D5FE31FA2A650CA0000B284D /* RxCocoa in Frameworks */,
+				FE1185D92A5EEE3A007E9DFA /* Moya in Frameworks */,
+				D5FE32042A651044000B284D /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,8 +147,10 @@
 				D53A21742A5C27F800D3516F /* LaunchScreen.storyboard */,
 				D53A21772A5C27F800D3516F /* Info.plist */,
 			);
+			indentWidth = 4;
 			path = Falling;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		D53A217F2A5C27F800D3516F /* FallingTests */ = {
 			isa = PBXGroup;
@@ -257,6 +275,14 @@
 				D57E63B12A5D71B500C40BEB /* Starscream */,
 				D57E63B42A5D71CC00C40BEB /* Moya */,
 				D57E63B72A5D71DA00C40BEB /* SnapKit */,
+				FE1185D82A5EEE3A007E9DFA /* Moya */,
+				FE1185DA2A5EEE3A007E9DFA /* RxMoya */,
+				D5AE5D4E2A6037D4000188AF /* SnapKit */,
+				D5FE31F92A650CA0000B284D /* RxCocoa */,
+				D5FE31FB2A650CA0000B284D /* RxRelay */,
+				D5FE31FD2A650CA0000B284D /* RxSwift */,
+				D5FE32002A651014000B284D /* Kingfisher */,
+				D5FE32032A651044000B284D /* Starscream */,
 			);
 			productName = Falling;
 			productReference = D53A21662A5C27F700D3516F /* Falling.app */;
@@ -334,6 +360,11 @@
 				D57E63B02A5D71B500C40BEB /* XCRemoteSwiftPackageReference "Starscream" */,
 				D57E63B32A5D71CC00C40BEB /* XCRemoteSwiftPackageReference "Moya" */,
 				D57E63B62A5D71DA00C40BEB /* XCRemoteSwiftPackageReference "SnapKit" */,
+				FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */,
+				D5AE5D4D2A6037D4000188AF /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */,
+				D5FE31FF2A651014000B284D /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				D5FE32022A651044000B284D /* XCRemoteSwiftPackageReference "Starscream" */,
 			);
 			productRefGroup = D53A21672A5C27F700D3516F /* Products */;
 			projectDirPath = "";
@@ -557,6 +588,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJDR485DTV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Falling/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -586,6 +618,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SJDR485DTV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Falling/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -739,6 +772,7 @@
 			};
 		};
 		D57E63B62A5D71DA00C40BEB /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		D5AE5D4D2A6037D4000188AF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -763,6 +797,81 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D57E63B62A5D71DA00C40BEB /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = exactVersion;
+				version = 6.6.0;
+			};
+		};
+		D5FE31FF2A651014000B284D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		D5FE32022A651044000B284D /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D5AE5D4E2A6037D4000188AF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5AE5D4D2A6037D4000188AF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D5FE31F92A650CA0000B284D /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		D5FE31FB2A650CA0000B284D /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		D5FE31FD2A650CA0000B284D /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		D5FE32002A651014000B284D /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5FE31FF2A651014000B284D /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		D5FE32032A651044000B284D /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5FE32022A651044000B284D /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		FE1185D82A5EEE3A007E9DFA /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		FE1185DA2A5EEE3A007E9DFA /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
