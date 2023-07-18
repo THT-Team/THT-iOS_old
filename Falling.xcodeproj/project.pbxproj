@@ -44,6 +44,9 @@
 		FE69A2B12A66EC210038F129 /* RxKeyboard in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2B02A66EC210038F129 /* RxKeyboard */; };
 		FE69A2B42A66EC360038F129 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2B32A66EC360038F129 /* Kingfisher */; };
 		FE69A2B72A66EC720038F129 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2B62A66EC720038F129 /* Lottie */; };
+		FE69A2BA2A66EE050038F129 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2B92A66EE050038F129 /* FirebaseAuth */; };
+		FE69A2BC2A66EE050038F129 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2BB2A66EE050038F129 /* FirebaseMessaging */; };
+		FE69A2BE2A66EE050038F129 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2BD2A66EE050038F129 /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE69A2BC2A66EE050038F129 /* FirebaseMessaging in Frameworks */,
 				FE69A2AC2A66EC070038F129 /* RxCocoa in Frameworks */,
 				FE69A2A32A66EB910038F129 /* RxMoya in Frameworks */,
 				FE69A2A12A66EB910038F129 /* Moya in Frameworks */,
@@ -109,6 +113,8 @@
 				FE69A29E2A66EB6D0038F129 /* SnapKit in Frameworks */,
 				FE69A2B72A66EC720038F129 /* Lottie in Frameworks */,
 				FE69A2A92A66EBE20038F129 /* Starscream in Frameworks */,
+				FE69A2BE2A66EE050038F129 /* FirebaseStorage in Frameworks */,
+				FE69A2BA2A66EE050038F129 /* FirebaseAuth in Frameworks */,
 				FE69A2B12A66EC210038F129 /* RxKeyboard in Frameworks */,
 				FE69A2A62A66EBA80038F129 /* Then in Frameworks */,
 				FE69A2AE2A66EC070038F129 /* RxSwift in Frameworks */,
@@ -326,6 +332,9 @@
 				FE69A2B02A66EC210038F129 /* RxKeyboard */,
 				FE69A2B32A66EC360038F129 /* Kingfisher */,
 				FE69A2B62A66EC720038F129 /* Lottie */,
+				FE69A2B92A66EE050038F129 /* FirebaseAuth */,
+				FE69A2BB2A66EE050038F129 /* FirebaseMessaging */,
+				FE69A2BD2A66EE050038F129 /* FirebaseStorage */,
 			);
 			productName = Falling;
 			productReference = D53A21662A5C27F700D3516F /* Falling.app */;
@@ -408,6 +417,7 @@
 				FE69A2AF2A66EC210038F129 /* XCRemoteSwiftPackageReference "RxKeyboard" */,
 				FE69A2B22A66EC360038F129 /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				FE69A2B52A66EC720038F129 /* XCRemoteSwiftPackageReference "lottie-spm" */,
+				FE69A2B82A66EE040038F129 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = D53A21672A5C27F700D3516F /* Products */;
 			projectDirPath = "";
@@ -872,6 +882,14 @@
 				minimumVersion = 4.0.0;
 			};
 		};
+		FE69A2B82A66EE040038F129 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -924,6 +942,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FE69A2B52A66EC720038F129 /* XCRemoteSwiftPackageReference "lottie-spm" */;
 			productName = Lottie;
+		};
+		FE69A2B92A66EE050038F129 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE69A2B82A66EE040038F129 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		FE69A2BB2A66EE050038F129 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE69A2B82A66EE040038F129 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		FE69A2BD2A66EE050038F129 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE69A2B82A66EE040038F129 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
