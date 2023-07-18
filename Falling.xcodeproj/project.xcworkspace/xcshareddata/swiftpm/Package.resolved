@@ -19,12 +19,21 @@
       }
     },
     {
+      "identity" : "lottie-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/airbnb/lottie-ios.git",
+      "state" : {
+        "branch" : "master",
+        "revision" : "173b119ae867719cdfaec85bf0ae971848a38d26"
+      }
+    },
+    {
       "identity" : "moya",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/Moya/Moya.git",
       "state" : {
-        "revision" : "c263811c1f3dbf002be9bd83107f7cdc38992b26",
-        "version" : "15.0.3"
+        "branch" : "master",
+        "revision" : "963654cd4f82d17d7546b9d6127c29f6df091717"
       }
     },
     {
@@ -70,10 +79,9 @@
       "state" : {
         "revision" : "df8d82047f6654d8e4b655d1b1525c64e1059d21",
         "version" : "4.0.4"
-			}
-			
-		},
-		{
+      }
+    },
+    {
       "identity" : "then",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/devxoul/Then.git",
