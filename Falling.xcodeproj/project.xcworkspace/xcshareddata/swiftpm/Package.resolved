@@ -10,12 +10,12 @@
       }
     },
     {
-      "identity" : "lottie-ios",
+      "identity" : "kingfisher",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/airbnb/lottie-ios.git",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "173b119ae867719cdfaec85bf0ae971848a38d26"
+        "revision" : "c1f60c63f356d364f4284ba82961acbe7de79bcc",
+        "version" : "7.8.1"
       }
     },
     {
@@ -77,8 +77,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/daltoniam/Starscream.git",
       "state" : {
-        "branch" : "master",
-        "revision" : "c68359159dcf0b5de9b536b9a959e9e435e968d3"
+        "revision" : "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+        "version" : "4.0.4"
       }
     },
     {
@@ -86,8 +86,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/devxoul/Then.git",
       "state" : {
-        "revision" : "d41ef523faef0f911369f79c0b96815d9dbb6d7a",
-        "version" : "3.0.0"
+        "branch" : "master",
+        "revision" : "d41ef523faef0f911369f79c0b96815d9dbb6d7a"
       }
     }
   ],
