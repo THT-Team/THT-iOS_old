@@ -17,6 +17,7 @@
 		D5048BD72A66584300C952E9 /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		D5048BDA2A665EE700C952E9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5048BD92A665EE700C952E9 /* UIColor+Extension.swift */; };
 		D5048BDC2A66620600C952E9 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5048BDB2A66620600C952E9 /* UIImage+Extension.swift */; };
+		D5048BF62A66909F00C952E9 /* APITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5048BF52A66909F00C952E9 /* APITest.swift */; };
 		D53A216A2A5C27F700D3516F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A21692A5C27F700D3516F /* AppDelegate.swift */; };
 		D53A216C2A5C27F700D3516F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A216B2A5C27F700D3516F /* SceneDelegate.swift */; };
 		D53A21732A5C27F800D3516F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53A21722A5C27F800D3516F /* Assets.xcassets */; };
@@ -76,6 +77,7 @@
 /* Begin PBXFileReference section */
 		D5048BD92A665EE700C952E9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		D5048BDB2A66620600C952E9 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		D5048BF52A66909F00C952E9 /* APITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITest.swift; sourceTree = "<group>"; };
 		D53A21662A5C27F700D3516F /* Falling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Falling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53A21692A5C27F700D3516F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D53A216B2A5C27F700D3516F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5048BD22A66580200C952E9 /* (null) in Frameworks */,
+				D57E63B82A5D71DA00C40BEB /* (null) in Frameworks */,
+				D5048BCF2A6657D400C952E9 /* (null) in Frameworks */,
+				D57E63B52A5D71CC00C40BEB /* (null) in Frameworks */,
+				D5048BCA2A6657C300C952E9 /* (null) in Frameworks */,
+				D57E63B22A5D71B500C40BEB /* (null) in Frameworks */,
+				D5048BD42A66580200C952E9 /* (null) in Frameworks */,
+				D5048BD72A66584300C952E9 /* (null) in Frameworks */,
+				D5048BC82A6657C300C952E9 /* (null) in Frameworks */,
 				D5FE31FE2A650CA0000B284D /* (null) in Frameworks */,
 				D5FE31FC2A650CA0000B284D /* (null) in Frameworks */,
 				D5FE32012A651014000B284D /* (null) in Frameworks */,
@@ -140,6 +151,9 @@
 				FE1185DB2A5EEE3A007E9DFA /* (null) in Frameworks */,
 				D5FE31FA2A650CA0000B284D /* (null) in Frameworks */,
 				FE1185D92A5EEE3A007E9DFA /* (null) in Frameworks */,
+				D5048BCC2A6657C300C952E9 /* (null) in Frameworks */,
+				D5FE32042A651044000B284D /* (null) in Frameworks */,
+				D5048BC52A6657AA00C952E9 /* (null) in Frameworks */,
 				D5048BCC2A6657C300C952E9 /* (null) in Frameworks */,
 				D5FE32042A651044000B284D /* (null) in Frameworks */,
 				D5048BC52A6657AA00C952E9 /* (null) in Frameworks */,
@@ -206,6 +220,7 @@
 			isa = PBXGroup;
 			children = (
 				D53A21802A5C27F800D3516F /* FallingTests.swift */,
+				D5048BF52A66909F00C952E9 /* APITest.swift */,
 			);
 			path = FallingTests;
 			sourceTree = "<group>";
@@ -420,7 +435,7 @@
 			);
 			mainGroup = D53A215D2A5C27F700D3516F;
 			packageReferences = (
-				D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */,
+				D5048BC62A6657C300C952E9 /* XCRemoteSwiftPackageReference "RxSwift" */,
 				D5FE31FF2A651014000B284D /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				FE1186152A642997007E9DFA /* XCRemoteSwiftPackageReference "RxKeyboard" */,
 				FE11861E2A643D84007E9DFA /* XCRemoteSwiftPackageReference "Then" */,
@@ -499,6 +514,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5048BF62A66909F00C952E9 /* APITest.swift in Sources */,
 				D53A21812A5C27F800D3516F /* FallingTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -827,6 +843,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		D5048BC62A6657C300C952E9 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
 		D5048BD52A66584300C952E9 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -859,14 +883,6 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
-			requirement = {
-				kind = exactVersion;
-				version = 6.6.0;
-			};
-		};
 		D5FE31FF2A651014000B284D /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
@@ -887,8 +903,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/devxoul/Then.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
+				branch = master;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
