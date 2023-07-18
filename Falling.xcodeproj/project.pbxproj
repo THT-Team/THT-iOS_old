@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5048BC52A6657AA00C952E9 /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = D5048BC42A6657AA00C952E9 /* Starscream */; };
+		D5048BC82A6657C300C952E9 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = D5048BC72A6657C300C952E9 /* RxCocoa */; };
+		D5048BCA2A6657C300C952E9 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = D5048BC92A6657C300C952E9 /* RxRelay */; };
+		D5048BCC2A6657C300C952E9 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D5048BCB2A6657C300C952E9 /* RxSwift */; };
+		D5048BCF2A6657D400C952E9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D5048BCE2A6657D400C952E9 /* SnapKit */; };
+		D5048BD22A66580200C952E9 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D5048BD12A66580200C952E9 /* Moya */; };
+		D5048BD42A66580200C952E9 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = D5048BD32A66580200C952E9 /* RxMoya */; };
+		D5048BD72A66584300C952E9 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D5048BD62A66584300C952E9 /* Lottie */; };
+		D5048BDA2A665EE700C952E9 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5048BD92A665EE700C952E9 /* UIColor+Extension.swift */; };
+		D5048BDC2A66620600C952E9 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5048BDB2A66620600C952E9 /* UIImage+Extension.swift */; };
 		D53A216A2A5C27F700D3516F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A21692A5C27F700D3516F /* AppDelegate.swift */; };
 		D53A216C2A5C27F700D3516F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A216B2A5C27F700D3516F /* SceneDelegate.swift */; };
 		D53A21732A5C27F800D3516F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D53A21722A5C27F800D3516F /* Assets.xcassets */; };
@@ -21,6 +31,10 @@
 		D57E63B22A5D71B500C40BEB /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = D57E63B12A5D71B500C40BEB /* Starscream */; };
 		D57E63B52A5D71CC00C40BEB /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D57E63B42A5D71CC00C40BEB /* Moya */; };
 		D57E63B82A5D71DA00C40BEB /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = D57E63B72A5D71DA00C40BEB /* SnapKit */; };
+		D57E63B22A5D71B500C40BEB /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		D57E63B52A5D71CC00C40BEB /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		D57E63B82A5D71DA00C40BEB /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		D5AE5D4F2A6037D4000188AF /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 		D5B6BD442A5C351200668C16 /* BaseTargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD432A5C351200668C16 /* BaseTargetType.swift */; };
 		D5B6BD462A5C35D100668C16 /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD452A5C35D100668C16 /* ResponseData.swift */; };
 		D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD472A5C370C00668C16 /* Networkable.swift */; };
@@ -44,6 +58,13 @@
 		FE1186402A658AA8007E9DFA /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE11863B2A658AA7007E9DFA /* Pretendard-Bold.ttf */; };
 		FE1186412A658AA8007E9DFA /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE11863C2A658AA7007E9DFA /* Pretendard-SemiBold.ttf */; };
 		FE1186422A658AA8007E9DFA /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE11863D2A658AA7007E9DFA /* Pretendard-Medium.ttf */; };
+		D5FE31FA2A650CA0000B284D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		D5FE31FC2A650CA0000B284D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		D5FE31FE2A650CA0000B284D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		D5FE32012A651014000B284D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		D5FE32042A651044000B284D /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		FE1185D92A5EEE3A007E9DFA /* (null) in Frameworks */ = {isa = PBXBuildFile; };
+		FE1185DB2A5EEE3A007E9DFA /* (null) in Frameworks */ = {isa = PBXBuildFile; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +85,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D5048BD92A665EE700C952E9 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		D5048BDB2A66620600C952E9 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		D53A21662A5C27F700D3516F /* Falling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Falling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53A21692A5C27F700D3516F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D53A216B2A5C27F700D3516F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +135,25 @@
 				D57E63B82A5D71DA00C40BEB /* SnapKit in Frameworks */,
 				D57E63B52A5D71CC00C40BEB /* Moya in Frameworks */,
 				D57E63B22A5D71B500C40BEB /* Starscream in Frameworks */,
+				D5048BD22A66580200C952E9 /* Moya in Frameworks */,
+				D57E63B82A5D71DA00C40BEB /* (null) in Frameworks */,
+				D5048BCF2A6657D400C952E9 /* SnapKit in Frameworks */,
+				D57E63B52A5D71CC00C40BEB /* (null) in Frameworks */,
+				D5048BCA2A6657C300C952E9 /* RxRelay in Frameworks */,
+				D57E63B22A5D71B500C40BEB /* (null) in Frameworks */,
+				D5048BD42A66580200C952E9 /* RxMoya in Frameworks */,
+				D5048BD72A66584300C952E9 /* Lottie in Frameworks */,
+				D5048BC82A6657C300C952E9 /* RxCocoa in Frameworks */,
+				D5FE31FE2A650CA0000B284D /* (null) in Frameworks */,
+				D5FE31FC2A650CA0000B284D /* (null) in Frameworks */,
+				D5FE32012A651014000B284D /* (null) in Frameworks */,
+				D5AE5D4F2A6037D4000188AF /* (null) in Frameworks */,
+				FE1185DB2A5EEE3A007E9DFA /* (null) in Frameworks */,
+				D5FE31FA2A650CA0000B284D /* (null) in Frameworks */,
+				FE1185D92A5EEE3A007E9DFA /* (null) in Frameworks */,
+				D5048BCC2A6657C300C952E9 /* RxSwift in Frameworks */,
+				D5FE32042A651044000B284D /* (null) in Frameworks */,
+				D5048BC52A6657AA00C952E9 /* Starscream in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +174,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D5048BD82A665EB200C952E9 /* DesignUtil */ = {
+			isa = PBXGroup;
+			children = (
+				D5048BD92A665EE700C952E9 /* UIColor+Extension.swift */,
+				D5048BDB2A66620600C952E9 /* UIImage+Extension.swift */,
+			);
+			path = DesignUtil;
+			sourceTree = "<group>";
+		};
 		D53A215D2A5C27F700D3516F = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				FE11861B2A6436A5007E9DFA /* DesignUtil */,
+				D5048BD82A665EB200C952E9 /* DesignUtil */,
 				D53A219B2A5C29A600D3516F /* DataLayer */,
 				D53A219A2A5C282100D3516F /* Feature */,
 				D53A21992A5C281400D3516F /* Common */,
@@ -326,6 +378,14 @@
 				D57E63B12A5D71B500C40BEB /* Starscream */,
 				D57E63B42A5D71CC00C40BEB /* Moya */,
 				D57E63B72A5D71DA00C40BEB /* SnapKit */,
+				D5048BC42A6657AA00C952E9 /* Starscream */,
+				D5048BC72A6657C300C952E9 /* RxCocoa */,
+				D5048BC92A6657C300C952E9 /* RxRelay */,
+				D5048BCB2A6657C300C952E9 /* RxSwift */,
+				D5048BCE2A6657D400C952E9 /* SnapKit */,
+				D5048BD12A66580200C952E9 /* Moya */,
+				D5048BD32A66580200C952E9 /* RxMoya */,
+				D5048BD62A66584300C952E9 /* Lottie */,
 			);
 			productName = Falling;
 			productReference = D53A21662A5C27F700D3516F /* Falling.app */;
@@ -410,6 +470,11 @@
 				D57E63B02A5D71B500C40BEB /* XCRemoteSwiftPackageReference "Starscream" */,
 				D57E63B32A5D71CC00C40BEB /* XCRemoteSwiftPackageReference "Moya" */,
 				D57E63B62A5D71DA00C40BEB /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D5048BC32A6657AA00C952E9 /* XCRemoteSwiftPackageReference "Starscream" */,
+				D5048BC62A6657C300C952E9 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				D5048BCD2A6657D400C952E9 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				D5048BD02A66580200C952E9 /* XCRemoteSwiftPackageReference "Moya" */,
+				D5048BD52A66584300C952E9 /* XCRemoteSwiftPackageReference "lottie-ios" */,
 			);
 			productRefGroup = D53A21672A5C27F700D3516F /* Products */;
 			projectDirPath = "";
@@ -460,6 +525,7 @@
 			files = (
 				FE1186372A658A3B007E9DFA /* UIFont+Extension.swift in Sources */,
 				D53A21A02A5C2DCF00D3516F /* SplashViewController.swift in Sources */,
+				D5048BDC2A66620600C952E9 /* UIImage+Extension.swift in Sources */,
 				D5B6BD4C2A5C37F000668C16 /* UserAPI.swift in Sources */,
 				FE1186142A642960007E9DFA /* SignUpRootViewController.swift in Sources */,
 				D53A216A2A5C27F700D3516F /* AppDelegate.swift in Sources */,
@@ -470,6 +536,7 @@
 				D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */,
 				D5B6BD442A5C351200668C16 /* BaseTargetType.swift in Sources */,
 				D5B6BD512A5C40EA00668C16 /* UserRequest.swift in Sources */,
+				D5048BDA2A665EE700C952E9 /* UIColor+Extension.swift in Sources */,
 				D5B6BD4A2A5C372B00668C16 /* NetworkLoggerPlugin.swift in Sources */,
 				D57E63AB2A5D159B00C40BEB /* APIError.swift in Sources */,
 			);
@@ -808,6 +875,23 @@
 
 /* Begin XCRemoteSwiftPackageReference section */
 		D5AE5D4D2A6037D4000188AF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		D5048BC32A6657AA00C952E9 /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D5048BC62A6657C300C952E9 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.6.0;
+			};
+		};
+		D5048BCD2A6657D400C952E9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
 			requirement = {
@@ -841,11 +925,20 @@
 			};
 		};
 		FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */ = {
+		D5048BD02A66580200C952E9 /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Moya/Moya.git";
 			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 15.0.0;
+				branch = master;
+				kind = branch;
+			};
+		};
+		D5048BD52A66584300C952E9 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				branch = master;
+				kind = branch;
 			};
 		};
 		FE1186152A642997007E9DFA /* XCRemoteSwiftPackageReference "RxKeyboard" */ = {
@@ -881,44 +974,39 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D5AE5D4E2A6037D4000188AF /* SnapKit */ = {
+		D5048BC42A6657AA00C952E9 /* Starscream */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = D5AE5D4D2A6037D4000188AF /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		D5FE31F92A650CA0000B284D /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		D5FE31FB2A650CA0000B284D /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		D5FE31FD2A650CA0000B284D /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		D5FE32002A651014000B284D /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D5FE31FF2A651014000B284D /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
-		};
-		D5FE32032A651044000B284D /* Starscream */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = D5FE32022A651044000B284D /* XCRemoteSwiftPackageReference "Starscream" */;
+			package = D5048BC32A6657AA00C952E9 /* XCRemoteSwiftPackageReference "Starscream" */;
 			productName = Starscream;
 		};
-		FE1185D82A5EEE3A007E9DFA /* Moya */ = {
+		D5048BC72A6657C300C952E9 /* RxCocoa */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */;
+			package = D5048BC62A6657C300C952E9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		D5048BC92A6657C300C952E9 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5048BC62A6657C300C952E9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		D5048BCB2A6657C300C952E9 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5048BC62A6657C300C952E9 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		D5048BCE2A6657D400C952E9 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5048BCD2A6657D400C952E9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		D5048BD12A66580200C952E9 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5048BD02A66580200C952E9 /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = Moya;
 		};
-		FE1185DA2A5EEE3A007E9DFA /* RxMoya */ = {
+		D5048BD32A66580200C952E9 /* RxMoya */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */;
+			package = D5048BD02A66580200C952E9 /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = RxMoya;
 		};
 		FE1186162A642997007E9DFA /* RxKeyboard */ = {
@@ -944,6 +1032,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D57E63B62A5D71DA00C40BEB /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		D5048BD62A66584300C952E9 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D5048BD52A66584300C952E9 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
