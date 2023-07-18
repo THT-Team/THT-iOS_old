@@ -32,6 +32,15 @@
 		D5FE32042A651044000B284D /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = D5FE32032A651044000B284D /* Starscream */; };
 		FE1185D92A5EEE3A007E9DFA /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = FE1185D82A5EEE3A007E9DFA /* Moya */; };
 		FE1185DB2A5EEE3A007E9DFA /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = FE1185DA2A5EEE3A007E9DFA /* RxMoya */; };
+		FE1186142A642960007E9DFA /* SignUpRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1186132A642960007E9DFA /* SignUpRootViewController.swift */; };
+		FE1186172A642997007E9DFA /* RxKeyboard in Frameworks */ = {isa = PBXBuildFile; productRef = FE1186162A642997007E9DFA /* RxKeyboard */; };
+		FE1186202A643D84007E9DFA /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = FE11861F2A643D84007E9DFA /* Then */; };
+		FE1186372A658A3B007E9DFA /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1186362A658A3B007E9DFA /* UIFont+Extension.swift */; };
+		FE11863E2A658AA8007E9DFA /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE1186392A658AA7007E9DFA /* Pretendard-Regular.ttf */; };
+		FE11863F2A658AA8007E9DFA /* Pretendard-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE11863A2A658AA7007E9DFA /* Pretendard-ExtraBold.ttf */; };
+		FE1186402A658AA8007E9DFA /* Pretendard-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE11863B2A658AA7007E9DFA /* Pretendard-Bold.ttf */; };
+		FE1186412A658AA8007E9DFA /* Pretendard-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE11863C2A658AA7007E9DFA /* Pretendard-SemiBold.ttf */; };
+		FE1186422A658AA8007E9DFA /* Pretendard-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE11863D2A658AA7007E9DFA /* Pretendard-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +82,13 @@
 		D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; tabWidth = 4; };
 		D5B6BD4E2A5C380C00668C16 /* UserTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTarget.swift; sourceTree = "<group>"; };
 		D5B6BD502A5C40EA00668C16 /* UserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
+		FE1186132A642960007E9DFA /* SignUpRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRootViewController.swift; sourceTree = "<group>"; };
+		FE1186362A658A3B007E9DFA /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		FE1186392A658AA7007E9DFA /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
+		FE11863A2A658AA7007E9DFA /* Pretendard-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-ExtraBold.ttf"; sourceTree = "<group>"; };
+		FE11863B2A658AA7007E9DFA /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
+		FE11863C2A658AA7007E9DFA /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
+		FE11863D2A658AA7007E9DFA /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +99,9 @@
 				D5FE31FE2A650CA0000B284D /* RxSwift in Frameworks */,
 				D5FE31FC2A650CA0000B284D /* RxRelay in Frameworks */,
 				D5FE32012A651014000B284D /* Kingfisher in Frameworks */,
+				FE1186202A643D84007E9DFA /* Then in Frameworks */,
 				D5AE5D4F2A6037D4000188AF /* SnapKit in Frameworks */,
+				FE1186172A642997007E9DFA /* RxKeyboard in Frameworks */,
 				FE1185DB2A5EEE3A007E9DFA /* RxMoya in Frameworks */,
 				D5FE31FA2A650CA0000B284D /* RxCocoa in Frameworks */,
 				FE1185D92A5EEE3A007E9DFA /* Moya in Frameworks */,
@@ -131,6 +149,7 @@
 		D53A21682A5C27F700D3516F /* Falling */ = {
 			isa = PBXGroup;
 			children = (
+				FE11861B2A6436A5007E9DFA /* DesignUtil */,
 				D53A219B2A5C29A600D3516F /* DataLayer */,
 				D53A219A2A5C282100D3516F /* Feature */,
 				D53A21992A5C281400D3516F /* Common */,
@@ -173,8 +192,8 @@
 		D53A219A2A5C282100D3516F /* Feature */ = {
 			isa = PBXGroup;
 			children = (
+				FE1186122A642937007E9DFA /* SignUp */,
 				D53A219D2A5C29D300D3516F /* Chat */,
-				D53A219C2A5C29C400D3516F /* Sign */,
 			);
 			path = Feature;
 			sourceTree = "<group>";
@@ -186,13 +205,6 @@
 				D53A21A12A5C2EAF00D3516F /* Network */,
 			);
 			path = DataLayer;
-			sourceTree = "<group>";
-		};
-		D53A219C2A5C29C400D3516F /* Sign */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sign;
 			sourceTree = "<group>";
 		};
 		D53A219D2A5C29D300D3516F /* Chat */ = {
@@ -249,6 +261,35 @@
 			path = User;
 			sourceTree = "<group>";
 		};
+		FE1186122A642937007E9DFA /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				FE1186132A642960007E9DFA /* SignUpRootViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		FE11861B2A6436A5007E9DFA /* DesignUtil */ = {
+			isa = PBXGroup;
+			children = (
+				FE1186382A658A95007E9DFA /* Font */,
+				FE1186362A658A3B007E9DFA /* UIFont+Extension.swift */,
+			);
+			path = DesignUtil;
+			sourceTree = "<group>";
+		};
+		FE1186382A658A95007E9DFA /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				FE1186392A658AA7007E9DFA /* Pretendard-Regular.ttf */,
+				FE11863D2A658AA7007E9DFA /* Pretendard-Medium.ttf */,
+				FE11863C2A658AA7007E9DFA /* Pretendard-SemiBold.ttf */,
+				FE11863B2A658AA7007E9DFA /* Pretendard-Bold.ttf */,
+				FE11863A2A658AA7007E9DFA /* Pretendard-ExtraBold.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,6 +315,8 @@
 				D5FE31FD2A650CA0000B284D /* RxSwift */,
 				D5FE32002A651014000B284D /* Kingfisher */,
 				D5FE32032A651044000B284D /* Starscream */,
+				FE1186162A642997007E9DFA /* RxKeyboard */,
+				FE11861F2A643D84007E9DFA /* Then */,
 			);
 			productName = Falling;
 			productReference = D53A21662A5C27F700D3516F /* Falling.app */;
@@ -353,6 +396,8 @@
 				D5FE31F82A650CA0000B284D /* XCRemoteSwiftPackageReference "RxSwift" */,
 				D5FE31FF2A651014000B284D /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				D5FE32022A651044000B284D /* XCRemoteSwiftPackageReference "Starscream" */,
+				FE1186152A642997007E9DFA /* XCRemoteSwiftPackageReference "RxKeyboard" */,
+				FE11861E2A643D84007E9DFA /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = D53A21672A5C27F700D3516F /* Products */;
 			projectDirPath = "";
@@ -370,8 +415,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1186412A658AA8007E9DFA /* Pretendard-SemiBold.ttf in Resources */,
 				D53A21762A5C27F800D3516F /* LaunchScreen.storyboard in Resources */,
+				FE1186402A658AA8007E9DFA /* Pretendard-Bold.ttf in Resources */,
 				D53A21732A5C27F800D3516F /* Assets.xcassets in Resources */,
+				FE11863E2A658AA8007E9DFA /* Pretendard-Regular.ttf in Resources */,
+				FE1186422A658AA8007E9DFA /* Pretendard-Medium.ttf in Resources */,
+				FE11863F2A658AA8007E9DFA /* Pretendard-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +446,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1186372A658A3B007E9DFA /* UIFont+Extension.swift in Sources */,
 				D53A21A02A5C2DCF00D3516F /* SplashViewController.swift in Sources */,
 				D5B6BD4C2A5C37F000668C16 /* UserAPI.swift in Sources */,
+				FE1186142A642960007E9DFA /* SignUpRootViewController.swift in Sources */,
 				D53A216A2A5C27F700D3516F /* AppDelegate.swift in Sources */,
 				D5B6BD4F2A5C380C00668C16 /* UserTarget.swift in Sources */,
 				D5B6BD462A5C35D100668C16 /* ResponseData.swift in Sources */,
@@ -783,6 +835,22 @@
 				minimumVersion = 15.0.0;
 			};
 		};
+		FE1186152A642997007E9DFA /* XCRemoteSwiftPackageReference "RxKeyboard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RxSwiftCommunity/RxKeyboard";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FE11861E2A643D84007E9DFA /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -825,6 +893,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FE1185D72A5EEE3A007E9DFA /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = RxMoya;
+		};
+		FE1186162A642997007E9DFA /* RxKeyboard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE1186152A642997007E9DFA /* XCRemoteSwiftPackageReference "RxKeyboard" */;
+			productName = RxKeyboard;
+		};
+		FE11861F2A643D84007E9DFA /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE11861E2A643D84007E9DFA /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
