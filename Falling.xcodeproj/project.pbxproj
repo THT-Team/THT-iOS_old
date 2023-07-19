@@ -27,6 +27,7 @@
 		D5B6BD4C2A5C37F000668C16 /* UserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */; };
 		D5B6BD4F2A5C380C00668C16 /* UserTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD4E2A5C380C00668C16 /* UserTarget.swift */; };
 		D5B6BD512A5C40EA00668C16 /* UserRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6BD502A5C40EA00668C16 /* UserRequest.swift */; };
+		D5E3B7992A66F00000C7626B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5E3B7982A66EFFF00C7626B /* GoogleService-Info.plist */; };
 		FE1186142A642960007E9DFA /* SignUpRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1186132A642960007E9DFA /* SignUpRootViewController.swift */; };
 		FE1186372A658A3B007E9DFA /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1186362A658A3B007E9DFA /* UIFont+Extension.swift */; };
 		FE11863E2A658AA8007E9DFA /* Pretendard-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FE1186392A658AA7007E9DFA /* Pretendard-Regular.ttf */; };
@@ -91,6 +92,7 @@
 		D5B6BD4B2A5C37F000668C16 /* UserAPI.swift */ = {isa = PBXFileReference; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = UserAPI.swift; sourceTree = "<group>"; tabWidth = 4; };
 		D5B6BD4E2A5C380C00668C16 /* UserTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTarget.swift; sourceTree = "<group>"; };
 		D5B6BD502A5C40EA00668C16 /* UserRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRequest.swift; sourceTree = "<group>"; };
+		D5E3B7982A66EFFF00C7626B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE1186132A642960007E9DFA /* SignUpRootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpRootViewController.swift; sourceTree = "<group>"; };
 		FE1186362A658A3B007E9DFA /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		FE1186392A658AA7007E9DFA /* Pretendard-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Regular.ttf"; sourceTree = "<group>"; };
@@ -171,6 +173,7 @@
 				D53A21722A5C27F800D3516F /* Assets.xcassets */,
 				D53A21742A5C27F800D3516F /* LaunchScreen.storyboard */,
 				D53A21772A5C27F800D3516F /* Info.plist */,
+				D5E3B7982A66EFFF00C7626B /* GoogleService-Info.plist */,
 			);
 			indentWidth = 4;
 			path = Falling;
@@ -442,6 +445,7 @@
 				FE11863E2A658AA8007E9DFA /* Pretendard-Regular.ttf in Resources */,
 				FE1186422A658AA8007E9DFA /* Pretendard-Medium.ttf in Resources */,
 				FE11863F2A658AA8007E9DFA /* Pretendard-ExtraBold.ttf in Resources */,
+				D5E3B7992A66F00000C7626B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
