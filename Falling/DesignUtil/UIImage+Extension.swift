@@ -22,6 +22,7 @@ enum BX {
     static let timeOver = UIImage(named: "topic_time_over")!
     static let transferError = UIImage(named: "transfer_error")!
     static let withdraw = UIImage(named: "withdraw")!
+	static let signitureVertical = UIImage(named: "vertical_signiture_EN")!
 }
 
 enum Icon {

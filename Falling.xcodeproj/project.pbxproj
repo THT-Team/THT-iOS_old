@@ -50,6 +50,13 @@
 		FE69A2BA2A66EE050038F129 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2B92A66EE050038F129 /* FirebaseAuth */; };
 		FE69A2BC2A66EE050038F129 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2BB2A66EE050038F129 /* FirebaseMessaging */; };
 		FE69A2BE2A66EE050038F129 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2BD2A66EE050038F129 /* FirebaseStorage */; };
+		FE69A2C12A695E510038F129 /* SplashLottie.json in Resources */ = {isa = PBXBuildFile; fileRef = FE69A2C02A695E510038F129 /* SplashLottie.json */; };
+		FE69A2C32A6967550038F129 /* LottieResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE69A2C22A6967550038F129 /* LottieResource.swift */; };
+		FEEC13E52A6B9D8000216182 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC13E42A6B9D8000216182 /* LoginButton.swift */; };
+		FEEC13E72A6BA7D900216182 /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC13E62A6BA7D900216182 /* SignUpViewModel.swift */; };
+		FEEC13F42A74EA2100216182 /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC13F32A74EA2100216182 /* ViewModelType.swift */; };
+		FEEC13F62A74EADF00216182 /* SignUpNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC13F52A74EADF00216182 /* SignUpNavigator.swift */; };
+		FEEC13F82A74EB2600216182 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEC13F72A74EB2600216182 /* Application.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +109,13 @@
 		FE11863B2A658AA7007E9DFA /* Pretendard-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Bold.ttf"; sourceTree = "<group>"; };
 		FE11863C2A658AA7007E9DFA /* Pretendard-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-SemiBold.ttf"; sourceTree = "<group>"; };
 		FE11863D2A658AA7007E9DFA /* Pretendard-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pretendard-Medium.ttf"; sourceTree = "<group>"; };
+		FE69A2C02A695E510038F129 /* SplashLottie.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SplashLottie.json; sourceTree = "<group>"; };
+		FE69A2C22A6967550038F129 /* LottieResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieResource.swift; sourceTree = "<group>"; };
+		FEEC13E42A6B9D8000216182 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		FEEC13E62A6BA7D900216182 /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		FEEC13F32A74EA2100216182 /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		FEEC13F52A74EADF00216182 /* SignUpNavigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpNavigator.swift; sourceTree = "<group>"; };
+		FEEC13F72A74EB2600216182 /* Application.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,7 +314,11 @@
 		FE1186122A642937007E9DFA /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				FEEC13F22A74EA1400216182 /* Common */,
+				FEEC13E62A6BA7D900216182 /* SignUpViewModel.swift */,
 				FE1186132A642960007E9DFA /* SignUpRootViewController.swift */,
+				FEEC13E42A6B9D8000216182 /* LoginButton.swift */,
+				FEEC13F52A74EADF00216182 /* SignUpNavigator.swift */,
 			);
 			path = SignUp;
 			sourceTree = "<group>";
@@ -308,6 +326,7 @@
 		FE11861B2A6436A5007E9DFA /* DesignUtil */ = {
 			isa = PBXGroup;
 			children = (
+				FE69A2BF2A695E400038F129 /* Resource */,
 				FE1186382A658A95007E9DFA /* Font */,
 				FE1186362A658A3B007E9DFA /* UIFont+Extension.swift */,
 				D5048BD92A665EE700C952E9 /* UIColor+Extension.swift */,
@@ -326,6 +345,24 @@
 				FE11863A2A658AA7007E9DFA /* Pretendard-ExtraBold.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		FE69A2BF2A695E400038F129 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				FE69A2C02A695E510038F129 /* SplashLottie.json */,
+				FE69A2C22A6967550038F129 /* LottieResource.swift */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		FEEC13F22A74EA1400216182 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				FEEC13F32A74EA2100216182 /* ViewModelType.swift */,
+				FEEC13F72A74EB2600216182 /* Application.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -463,6 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE1186412A658AA8007E9DFA /* Pretendard-SemiBold.ttf in Resources */,
+				FE69A2C12A695E510038F129 /* SplashLottie.json in Resources */,
 				D53A21762A5C27F800D3516F /* LaunchScreen.storyboard in Resources */,
 				FE1186402A658AA8007E9DFA /* Pretendard-Bold.ttf in Resources */,
 				D53A21732A5C27F800D3516F /* Assets.xcassets in Resources */,
@@ -496,9 +534,13 @@
 			files = (
 				D5E3B79C2A67F5BD00C7626B /* StorageManager.swift in Sources */,
 				FE1186372A658A3B007E9DFA /* UIFont+Extension.swift in Sources */,
+				FEEC13E52A6B9D8000216182 /* LoginButton.swift in Sources */,
+				FEEC13F82A74EB2600216182 /* Application.swift in Sources */,
 				D53A21A02A5C2DCF00D3516F /* SplashViewController.swift in Sources */,
 				D5048BDC2A66620600C952E9 /* UIImage+Extension.swift in Sources */,
 				D5B6BD4C2A5C37F000668C16 /* UserAPI.swift in Sources */,
+				FEEC13F42A74EA2100216182 /* ViewModelType.swift in Sources */,
+				FEEC13E72A6BA7D900216182 /* SignUpViewModel.swift in Sources */,
 				FE1186142A642960007E9DFA /* SignUpRootViewController.swift in Sources */,
 				D53A216A2A5C27F700D3516F /* AppDelegate.swift in Sources */,
 				D5B6BD4F2A5C380C00668C16 /* UserTarget.swift in Sources */,
@@ -507,8 +549,10 @@
 				D57E63AD2A5D18D000C40BEB /* ChatListViewController.swift in Sources */,
 				D5B6BD482A5C370C00668C16 /* Networkable.swift in Sources */,
 				D5B6BD442A5C351200668C16 /* BaseTargetType.swift in Sources */,
+				FE69A2C32A6967550038F129 /* LottieResource.swift in Sources */,
 				D5B6BD512A5C40EA00668C16 /* UserRequest.swift in Sources */,
 				D5048BDA2A665EE700C952E9 /* UIColor+Extension.swift in Sources */,
+				FEEC13F62A74EADF00216182 /* SignUpNavigator.swift in Sources */,
 				D5B6BD4A2A5C372B00668C16 /* NetworkLoggerPlugin.swift in Sources */,
 				D57E63AB2A5D159B00C40BEB /* APIError.swift in Sources */,
 			);

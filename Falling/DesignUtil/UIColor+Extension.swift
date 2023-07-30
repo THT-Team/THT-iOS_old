@@ -27,6 +27,9 @@ extension UIColor {
         case Primary400
         case Primary500
         case Primary600
+		
+		case kakaoPrimary
+		case naverPrimary
     }
 }
 
@@ -49,4 +52,7 @@ extension UIColor {
     static let primary400 = UIColor(named: ColorName.Primary400.rawValue)!
     static let primary500 = UIColor(named: ColorName.Primary500.rawValue)!
     static let primary600 = UIColor(named: ColorName.Primary600.rawValue)!
+	
+	static let kakaoPrimary = UIColor(named: ColorName.kakaoPrimary.rawValue)!
+	static let naverPrimary = UIColor(named: ColorName.naverPrimary.rawValue)!
 }
