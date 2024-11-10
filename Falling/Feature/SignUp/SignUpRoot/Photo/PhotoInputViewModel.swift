@@ -13,7 +13,7 @@ import PhotosUI
 import RxSwift
 import RxCocoa
 import SignUpInterface
-import Domain
+
 
 enum PhotoAlertAction {
   case edit(IndexPath)

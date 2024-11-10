@@ -12,7 +12,7 @@ import SignUpInterface
 
 import RxSwift
 import RxCocoa
-import Domain
+
 
 open class BaseTagPickerViewModel: BasePenddingViewModel {
   let userDomainUseCase: UserDomainUseCaseInterface

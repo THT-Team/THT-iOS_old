@@ -11,7 +11,7 @@ import Foundation
 
 import RxSwift
 import RxCocoa
-import Domain
+
 import SignUpInterface
 
 final class ReligionPickerViewModel: BasePenddingViewModel, ViewModelType {

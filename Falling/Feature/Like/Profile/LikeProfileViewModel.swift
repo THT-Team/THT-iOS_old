@@ -8,7 +8,7 @@
 import Foundation
 
 import LikeInterface
-import Domain
+
 
 final class LikeProfileViewModel: ViewModelType {
 

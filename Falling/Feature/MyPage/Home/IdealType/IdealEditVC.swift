@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 import SignUpInterface
 import MyPageInterface
-import Domain
+
 
 final class TagPickerEditView: TFBaseView {
   private let title: String

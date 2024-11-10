@@ -9,7 +9,7 @@ import Foundation
 
 import RxSwift
 import AuthInterface
-import Domain
+
 
 public protocol SignUpRepositoryInterface {
   func checkNickname(nickname: String) -> Single<Bool>

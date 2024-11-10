@@ -11,7 +11,7 @@ import Foundation
 import MyPageInterface
 import RxSwift
 import RxCocoa
-import Domain
+
 import PhotosUI
 
 final class MyPageHomeViewModel: ViewModelType {

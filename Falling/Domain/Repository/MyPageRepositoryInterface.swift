@@ -14,7 +14,7 @@ import AuthInterface
 
 import RxSwift
 import RxCocoa
-import Domain
+
 
 public protocol MyPageRepositoryInterface {
   func fetchUser() -> Single<User>

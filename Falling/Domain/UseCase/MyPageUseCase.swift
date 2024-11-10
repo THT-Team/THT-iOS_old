@@ -11,7 +11,7 @@ import MyPageInterface
 import SignUpInterface
 import AuthInterface
 import RxSwift
-import Domain
+
 import PhotosUI
 
 

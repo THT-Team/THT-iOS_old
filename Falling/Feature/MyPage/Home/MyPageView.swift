@@ -9,7 +9,7 @@ import UIKit
 
 import SnapKit
 import Then
-import Domain
+
 
 protocol MyPageViewDelegate: AnyObject {
   func didTapPhotoEditButton(_ index: Int)

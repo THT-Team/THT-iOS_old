@@ -12,7 +12,7 @@ import SignUpInterface
 
 import RxSwift
 import RxCocoa
-import Domain
+
 
 public protocol EmojiPickerProtocol {
   func fetchInitialEmojiIndex() -> Driver<[Int]>

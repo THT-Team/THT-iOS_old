@@ -9,7 +9,7 @@ import UIKit
 
 import Then
 import SnapKit
-import Domain
+
 import MyPageInterface
 
 final class MyPageTagCollectionViewCell: TFBaseCollectionViewCell {

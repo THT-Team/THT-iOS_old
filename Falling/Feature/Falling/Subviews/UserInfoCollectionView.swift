@@ -9,7 +9,7 @@ import UIKit
 
 
 import FallingInterface
-import Domain
+
 
 final class UserInfoView: TFBaseView {
   private var dataSource: DataSource!

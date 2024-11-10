@@ -8,7 +8,7 @@
 import UIKit
 
 import LikeInterface
-import Domain
+
 
 final class LikeProfileInfoReusableView: UICollectionReusableView {
 

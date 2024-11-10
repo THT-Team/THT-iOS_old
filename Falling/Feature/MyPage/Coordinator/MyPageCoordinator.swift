@@ -12,7 +12,7 @@ import SignUpInterface
 import AuthInterface
 
 import PhotosUI
-import Domain
+
 
 public final class MyPageCoordinator: BaseCoordinator {
 

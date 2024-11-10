@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 import SignUpInterface
 import MyPageInterface
-import Domain
+
 
 public struct AttributedTitleInfo {
   public let title: String

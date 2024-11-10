@@ -8,7 +8,7 @@
 import Foundation
 import SignUpInterface
 
-import Domain
+
 
 public enum MyPageSection {
   case birthday(String)

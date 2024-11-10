@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 import SignUpInterface
 import MyPageInterface
-import Domain
+
 
 extension Domain.EmojiType: EmojiPropertyType { }
 
