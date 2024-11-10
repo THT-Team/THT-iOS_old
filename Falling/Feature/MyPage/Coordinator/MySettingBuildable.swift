@@ -7,7 +7,7 @@
 
 import Foundation
 
-import Core
+
 
 public protocol MySettingBuildable {
   func build(rootViewControllable: ViewControllable, user: User) -> MySettingCoordinating

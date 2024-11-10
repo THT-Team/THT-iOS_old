@@ -8,7 +8,7 @@
 import Foundation
 import MyPageInterface
 
-import Core
+
 
 public final class MyPageAlertCoordinator: BaseCoordinator {
   public var delegate: MyPageAlertCoordinatorDelegate?

@@ -7,7 +7,7 @@
 
 import Foundation
 
-import Core
+
 
 public struct AuthCodeWithTimeStamp {
   public let authCode: Int

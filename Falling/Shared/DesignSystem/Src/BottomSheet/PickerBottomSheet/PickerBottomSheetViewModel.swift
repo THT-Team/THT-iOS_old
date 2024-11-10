@@ -9,7 +9,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-import Core
+
 
 public class PickerBottomSheetViewModel: ViewModelType {
 //  private let filterType: Item

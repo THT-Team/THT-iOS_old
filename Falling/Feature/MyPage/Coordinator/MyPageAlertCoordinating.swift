@@ -7,7 +7,7 @@
 
 import Foundation
 
-import Core
+
 
 public protocol MyPageAlertCoordinating: Coordinator {
   var delegate: MyPageAlertCoordinatorDelegate? { get set }

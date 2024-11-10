@@ -7,7 +7,7 @@
 
 import Foundation
 
-import Core
+
 
 public protocol InquiryCoordinatingDelegate: AnyObject {
   func detachInquiry(_ coordinator: Coordinator)

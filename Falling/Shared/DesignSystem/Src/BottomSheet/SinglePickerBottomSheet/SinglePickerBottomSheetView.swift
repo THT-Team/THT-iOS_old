@@ -7,7 +7,6 @@
 
 import UIKit
 
-import Core
 
 public class SinglePickerBottomSheetView: TFBaseView {
 

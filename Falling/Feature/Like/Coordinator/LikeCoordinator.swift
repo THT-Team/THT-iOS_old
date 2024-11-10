@@ -8,7 +8,7 @@
 import Foundation
 
 import LikeInterface
-import Core
+
 
 enum LikeCoordinatorAction {
   case presentProfile(like: Like, listener: LikeProfileListener)

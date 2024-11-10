@@ -13,7 +13,7 @@ import AuthInterface
 import KakaoSDKAuth
 import KakaoSDKUser
 
-import Core
+
 
 final class AuthRootViewModel: ViewModelType {
   private let useCase: AuthUseCaseInterface

@@ -8,7 +8,7 @@
 import Foundation
 import PhotosUI
 
-import Core
+
 
 extension SignUpCoordinator {
   public func photoPickerFlow(delegate: PhotoPickerDelegate) {

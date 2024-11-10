@@ -7,7 +7,7 @@
 
 import Foundation
 import SignUpInterface
-import Core
+
 
 open class BasePenddingViewModel {
   var disposeBag = DisposeBag()

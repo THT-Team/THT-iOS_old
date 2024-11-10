@@ -7,7 +7,7 @@
 
 import UIKit
 
-import Core
+
 import LikeInterface
 
 public final class LikeHomeViewController: TFBaseViewController {

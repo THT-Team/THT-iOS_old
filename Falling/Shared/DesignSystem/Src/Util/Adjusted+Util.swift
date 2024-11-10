@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Core
+
 
 public extension CGFloat {
     var adjusted: CGFloat {

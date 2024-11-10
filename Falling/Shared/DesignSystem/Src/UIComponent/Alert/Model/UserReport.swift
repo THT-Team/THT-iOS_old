@@ -7,7 +7,7 @@
 
 import Foundation
 
-import Core
+
 
 
 public enum UserReport: String, CaseIterable {

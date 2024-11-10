@@ -7,7 +7,7 @@
 
 import UIKit
 
-import Core
+
 
 final class ProfileCollectionViewCell: UICollectionViewCell {
   private lazy var imageView: UIImageView = {

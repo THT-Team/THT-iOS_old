@@ -7,7 +7,7 @@
 
 import Foundation
 
-import Core
+
 
 public protocol MyPageAlertBuildable {
   func build(rootViewControllable: ViewControllable) -> MyPageAlertCoordinating

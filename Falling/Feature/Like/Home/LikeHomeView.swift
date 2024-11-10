@@ -7,7 +7,7 @@
 
 import UIKit
 
-import Core
+
 
 final class HeartListView: TFBaseView {
   private lazy var blurEffect = UIBlurEffect(style: .regular)

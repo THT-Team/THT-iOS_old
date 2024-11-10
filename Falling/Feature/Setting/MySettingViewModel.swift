@@ -9,7 +9,7 @@ import Foundation
 import MyPageInterface
 import SignUpInterface
 
-import Core
+
 
 import RxSwift
 import RxCocoa

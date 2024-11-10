@@ -7,7 +7,7 @@
 
 import Foundation
 
-import Core
+
 
 public protocol FallingRepositoryInterface {
   func user(alreadySeenUserUUIDList: [String], userDailyFallingCourserIdx: Int, size: Int) -> Single<FallingUserInfo>

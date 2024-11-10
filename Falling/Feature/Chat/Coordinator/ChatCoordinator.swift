@@ -8,7 +8,7 @@
 import Foundation
 
 import ChatInterface
-import Core
+
 
 enum ChatCoordinatingAction {
   case backButtonTapped

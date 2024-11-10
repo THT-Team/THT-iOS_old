@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import Core
+
 
 final class ProfileView: TFBaseView {
 

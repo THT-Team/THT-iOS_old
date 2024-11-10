@@ -7,7 +7,7 @@
 
 import UIKit
 
-import Core
+
 
 final class ProfileIntroduceCell: TFBaseCollectionViewCell {
   private lazy var textView: UITextView = {

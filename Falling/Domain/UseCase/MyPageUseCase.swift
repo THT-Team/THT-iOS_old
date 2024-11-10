@@ -14,7 +14,7 @@ import RxSwift
 import Domain
 import PhotosUI
 
-import Core
+
 
 public final class MyPageUseCase: MyPageUseCaseInterface {
   

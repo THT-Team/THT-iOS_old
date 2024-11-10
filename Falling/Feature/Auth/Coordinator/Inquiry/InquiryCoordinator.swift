@@ -8,7 +8,7 @@
 import Foundation
 import AuthInterface
 
-import Core
+
 
 public final class InquiryCoordinator: BaseCoordinator, InquiryCoordinating {
 

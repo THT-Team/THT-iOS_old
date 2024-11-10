@@ -9,7 +9,7 @@ import UIKit
 
 import MyPageInterface
 
-import Core
+
 
 final class MyPageHomeViewController: TFBaseViewController {
   let viewModel: MyPageHomeViewModel

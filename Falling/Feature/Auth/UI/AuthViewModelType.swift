@@ -7,7 +7,7 @@
 
 import Foundation
 
-import Core
+
 
 public protocol AuthViewModelType: ViewModelType where Input: AuthInput, Output: AuthOutput {
   var delegate: PhoneAuthViewDelegate? { get set }

@@ -7,7 +7,7 @@
 
 import UIKit
 
-import Core
+
 
 final class CardTimeView: TFBaseView {
   lazy var containerView: UIView = {

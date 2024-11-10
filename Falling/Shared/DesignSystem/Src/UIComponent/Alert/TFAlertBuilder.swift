@@ -7,7 +7,6 @@
 
 import Foundation
 
-import Core
 
 public final class TFAlertBuilder {
   // MARK: Domain에 종속된 Component 대신 추상화하기

@@ -7,7 +7,7 @@
 
 import Foundation
 
-import Core
+
 
 public protocol MyPageBuildable {
   func build() -> MyPageCoordinating

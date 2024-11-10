@@ -7,7 +7,7 @@
 
 import UIKit
 
-import Core
+
 
 final class CardCircleTimerView: TFBaseView {
   private var gradientLayer: CAGradientLayer?

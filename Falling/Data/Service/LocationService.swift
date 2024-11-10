@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import CoreLocation
+Location
 import RxSwift
 
 extension CLLocationCoordinate2D {

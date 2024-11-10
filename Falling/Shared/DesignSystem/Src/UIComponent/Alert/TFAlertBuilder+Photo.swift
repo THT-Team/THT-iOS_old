@@ -7,7 +7,6 @@
 
 import Foundation
 
-import Core
 
 public extension TFAlertBuilder {
   static func makePhotoEditOrDeleteAlert(

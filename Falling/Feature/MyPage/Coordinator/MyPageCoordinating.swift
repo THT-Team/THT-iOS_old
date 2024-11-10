@@ -8,7 +8,7 @@
 import Foundation
 import SignUpInterface
 
-import Core
+
 
 public protocol MyPageCoordinatorDelegate: AnyObject {
   func detachMyPage(_ coordinator: Coordinator)

@@ -8,7 +8,7 @@
 import UIKit
 
 import Domain
-import Core
+
 
 // Suggest Selectable tag chip confirmed collectionView cell
 // it has to status selected and non-selected

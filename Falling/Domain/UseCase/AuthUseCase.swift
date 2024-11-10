@@ -10,7 +10,7 @@ import AuthInterface
 import RxSwift
 import KakaoSDKUser
 
-import Core
+
 
 public final class AuthUseCase: AuthUseCaseInterface {
   private let repository: AuthRepositoryInterface

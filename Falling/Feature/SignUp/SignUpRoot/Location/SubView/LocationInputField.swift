@@ -7,7 +7,7 @@
 
 import UIKit
 
-import Core
+
 
 class LocationInputField: UIControl {
 

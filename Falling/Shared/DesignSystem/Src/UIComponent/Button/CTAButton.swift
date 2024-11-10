@@ -4,7 +4,7 @@
 //
 //  Created by Hoo's MacBookPro on 2023/08/26.
 //
-import Core
+
 import UIKit
 import RxSwift
 

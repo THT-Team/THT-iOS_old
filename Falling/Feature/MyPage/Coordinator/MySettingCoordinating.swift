@@ -8,7 +8,7 @@
 import Foundation
 import SignUpInterface
 
-import Core
+
 
 public enum MySettingCoordinatorOption {
   case logout

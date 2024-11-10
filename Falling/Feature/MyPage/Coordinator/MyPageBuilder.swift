@@ -9,7 +9,7 @@ import Foundation
 
 import MyPageInterface
 import AuthInterface
-import Core
+
 
 public protocol MyPageDependency {
   var inquiryBuildable: InquiryBuildable { get }

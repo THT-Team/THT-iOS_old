@@ -7,7 +7,7 @@
 
 import Foundation
 
-import Core
+
 import ChatInterface
 
 import RxSwift

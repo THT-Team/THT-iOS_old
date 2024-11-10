@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 
-import Core
+
 
 public class TFWebViewController: TFBaseViewController {
 

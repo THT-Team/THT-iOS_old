@@ -8,7 +8,7 @@
 import UIKit
 
 import SignUpInterface
-import Core
+
 
 final class PreferGenderCell: TFBaseCollectionViewCell, SelectableCellType, textBindable {
   enum Image {
