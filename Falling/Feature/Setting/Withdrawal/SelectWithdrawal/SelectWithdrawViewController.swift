@@ -7,9 +7,6 @@
 
 import UIKit
 
-import DSKit
-import MyPageInterface
-
 final class SelectWithdrawViewController: TFBaseViewController {
   typealias ViewModel = SelectWithdrawalViewModel
   typealias CellType = WithdrawalCollectionViewCell

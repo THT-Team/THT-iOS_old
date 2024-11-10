@@ -7,11 +7,6 @@
 
 import UIKit
 
-import MyPageInterface
-import SignUpInterface
-import AuthInterface
-import DSKit
-
 public protocol MySettingCoordinatorDependency {
   var myPageAlertBuildable: MyPageAlertBuildable { get }
   var inquiryBuildable: InquiryBuildable { get }

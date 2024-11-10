@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class SelectWithdrawalView: TFBaseView {
   private lazy var titleView = TFTitleView(title: "계정 탈퇴하시겠어요?", subTitle: "탈퇴하시는 이유를 알려주세요")
 

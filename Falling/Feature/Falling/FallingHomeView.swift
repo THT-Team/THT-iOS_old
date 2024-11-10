@@ -7,9 +7,6 @@
 
 import UIKit
 
-import Core
-import DSKit
-
 final class FallingHomeView: TFBaseView {
   lazy var collectionView: UICollectionView = {
     let flowLayout = UICollectionViewCompositionalLayout.verticalListLayout(withEstimatedHeight: ((UIWindow.keyWindow?.frame.width ?? 0) - 32) * 1.64)

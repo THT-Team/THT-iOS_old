@@ -7,8 +7,6 @@
 
 import Foundation
 
-import DSKit
-
 enum TimeState {
   case initial(value: Double) // 14~15
   case five(value: Double)    // 12~14

@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class HeaderDescriptionView: UICollectionReusableView {
 
   override init(frame: CGRect) {

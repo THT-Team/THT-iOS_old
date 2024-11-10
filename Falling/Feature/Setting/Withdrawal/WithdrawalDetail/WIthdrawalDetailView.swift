@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class WithdrawalDetailView: TFBaseView {
 
   lazy var collectionView: UICollectionView = {

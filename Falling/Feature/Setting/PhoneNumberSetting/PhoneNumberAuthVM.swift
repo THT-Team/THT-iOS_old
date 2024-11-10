@@ -7,10 +7,6 @@
 
 import Foundation
 
-import DSKit
-import AuthInterface
-import MyPageInterface
-
 final class PhoneNumberAuthVM: AuthViewModelType {
   
   private let phoneNumber: String

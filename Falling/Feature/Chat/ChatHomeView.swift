@@ -7,9 +7,6 @@
 
 import UIKit
 
-import Core
-import DSKit
-
 final class ChatHomeView: TFBaseView {
   lazy var notiButton: UIBarButtonItem = .noti
   lazy var backgroundView = TFEmptyView(

@@ -7,9 +7,6 @@
 
 import UIKit
 
-import Core
-import DSKit
-
 final class AlarmSettingViewController: TFBaseViewController {
   typealias CellType = MyPageDefaultTableViewCell
   typealias VMType = AlarmSettingViewModel

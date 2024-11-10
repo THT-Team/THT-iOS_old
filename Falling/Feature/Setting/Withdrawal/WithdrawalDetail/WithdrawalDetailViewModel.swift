@@ -7,12 +7,8 @@
 
 import Foundation
 
-import Core
-
 import RxSwift
 import RxCocoa
-import DSKit
-import MyPageInterface
 
 final class WithdrawalDetailViewModel: ViewModelType {
   let withdrawalDetail: WithdrawalReasonDetail

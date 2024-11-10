@@ -7,11 +7,6 @@
 
 import UIKit
 
-import Core
-import DSKit
-
-import MyPageInterface
-
 final class MySettingsViewController: TFBaseViewController {
   typealias CellType = MyPageDefaultTableViewCell
 

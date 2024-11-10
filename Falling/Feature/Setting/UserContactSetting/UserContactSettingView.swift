@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class UserContactSettingView: TFBaseView {
 
   var tableView: UITableView!

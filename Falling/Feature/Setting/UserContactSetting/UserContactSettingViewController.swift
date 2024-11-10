@@ -7,9 +7,6 @@
 
 import UIKit
 
-import Core
-import DSKit
-
 final class UserContactSettingViewController: TFBaseViewController {
   private let mainView = UserContactSettingView()
   private let viewModel: UserContactSettingViewModel

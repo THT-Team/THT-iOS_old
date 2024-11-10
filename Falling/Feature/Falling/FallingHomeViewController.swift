@@ -7,10 +7,6 @@
 
 import UIKit
 
-import Core
-import DSKit
-import FallingInterface
-
 final class FallingHomeViewController: TFBaseViewController {
   private let viewModel: FallingHomeViewModel
   private var dataSource: DataSource!

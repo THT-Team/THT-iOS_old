@@ -7,10 +7,6 @@
 
 import UIKit
 
-import Core
-
-import DSKit
-
 final class TFTabBarController: UITabBarController, MainViewControllable {
   var uiController: UIViewController { self }
   let tabBarHeight: CGFloat = 56

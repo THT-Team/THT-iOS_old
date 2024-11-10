@@ -7,10 +7,6 @@
 
 import UIKit
 
-import FallingInterface
-import DSKit
-import Domain
-
 struct FallingUserCollectionViewCellObserver {
   var userCardScrollIndex: Observable<Int>
   var timerActiveTrigger: Observable<Bool>

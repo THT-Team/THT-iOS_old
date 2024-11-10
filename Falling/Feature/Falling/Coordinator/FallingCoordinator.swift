@@ -7,11 +7,6 @@
 
 import Foundation
 
-import FallingInterface
-import Core
-
-import DSKit
-
 public final class FallingCoordinator: BaseCoordinator, FallingCoordinating {
   @Injected var fallingUseCase: FallingUseCaseInterface
 

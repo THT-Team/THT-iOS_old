@@ -7,11 +7,7 @@
 
 import UIKit
 
-import DSKit
-
 import Kingfisher
-import ChatInterface
-
 final class MyChatBubbleCell: TFBaseCollectionViewCell {
   enum State {
     case onlyContent

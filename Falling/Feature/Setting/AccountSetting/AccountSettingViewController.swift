@@ -7,9 +7,6 @@
 
 import UIKit
 
-import Core
-import DSKit
-
 final class AccountSettingViewController: TFBaseViewController {
   typealias VMType = AccountSettingViewModel
   typealias CellType = MyPageDefaultTableViewCell

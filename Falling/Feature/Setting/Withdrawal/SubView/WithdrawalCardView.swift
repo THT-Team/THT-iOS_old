@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 open class TFCardView: TFBaseView {
 
   private let imageView = UIImageView().then {

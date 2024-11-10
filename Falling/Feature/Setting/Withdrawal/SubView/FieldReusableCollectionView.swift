@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class TFHeaderField: UICollectionReusableView {
 
   override init(frame: CGRect) {

@@ -7,9 +7,6 @@
 
 import UIKit
 
-import MyPageInterface
-import DSKit
-
 final class WithdrawalDetailCollectionViewCell: TFBaseCollectionViewCell {
   private lazy var titleLabel = UILabel().then {
     $0.font = .thtSubTitle2R

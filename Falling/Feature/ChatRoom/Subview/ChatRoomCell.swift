@@ -7,10 +7,7 @@
 
 import UIKit
 
-import DSKit
-
 import Kingfisher
-import ChatInterface
 
 final class ChatRoomCell: TFBaseCollectionViewCell {
   private lazy var profileImageView: UIImageView = {

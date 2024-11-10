@@ -7,9 +7,6 @@
 
 import UIKit
 
-import DSKit
-import MyPageInterface
-
 final class WithdrawalCollectionViewCell: TFBaseCollectionViewCell {
   var model: WithdrawalReason? {
     didSet {

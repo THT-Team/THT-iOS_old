@@ -6,8 +6,6 @@
 //
 
 import UIKit
-import AuthInterface
-import DSKit
 
 public final class AuthViewFactory {
   @Injected private var useCase: AuthUseCaseInterface

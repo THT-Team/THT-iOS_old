@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import DSKit
 
 public final class InquiryViewController: TFBaseViewController {
   public typealias ViewModel = InquiryViewModel

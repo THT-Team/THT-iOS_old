@@ -7,9 +7,6 @@
 
 import UIKit
 
-import AuthInterface
-import DSKit
-
 public final class PhoneInputVC: TFBaseViewController, PhoneNumberVCType {
   public typealias ViewModel = PhoneInputVM
 

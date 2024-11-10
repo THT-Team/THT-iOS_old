@@ -6,12 +6,7 @@
 //
 
 import UIKit
-
-import SignUpInterface
-import AuthInterface
-
 import KakaoSDKCommon
-import DSKit
 
 public final class AuthBuilder: AuthBuildable {
   private let signUpBuilable: SignUpBuildable

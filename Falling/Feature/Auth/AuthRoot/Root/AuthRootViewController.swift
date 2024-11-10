@@ -8,10 +8,6 @@
 
 import UIKit
 
-import DSKit
-
-import AuthInterface
-
 final class AuthRootViewController: TFBaseViewController {
   private lazy var buttonStackView = UIStackView().then {
     $0.axis = .vertical

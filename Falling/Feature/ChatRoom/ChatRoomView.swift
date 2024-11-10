@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class ChatRoomView: TFBaseView {
 
   lazy var backButton: UIBarButtonItem = .backButton

@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class TFTopicBannerView: TFBaseView {
   private var isDrawed = false
   

@@ -16,9 +16,6 @@ import Foundation
 
 import UIKit
 
-import Core
-import DSKit
-
 final class EmailEditRootVC: TFBaseViewController {
   typealias ViewModel = EmailEditRootVM
   private let viewModel: ViewModel
@@ -33,7 +30,7 @@ final class EmailEditRootVC: TFBaseViewController {
   lazy var tableView = UITableView(frame: .zero, style: .insetGrouped).then {
     $0.showsVerticalScrollIndicator = false
     $0.register(cellType: UITableViewCell.self)
-    $0.backgroundColor = DSKitAsset.Color.neutral700.color
+      $0.backgroundColor = UIColor(resource: .neutral700)
   }
   
   lazy var updateBtn = WhiteStrokeMediumButton(title: "이메일 업데이트")

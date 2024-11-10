@@ -7,10 +7,6 @@
 
 import UIKit
 
-import DSKit
-
-import MyPageInterface
-
 final class WithdrawalCompleteViewController: TFBaseViewController {
   weak var delegate: MySettingCoordinatingActionDelegate?
 

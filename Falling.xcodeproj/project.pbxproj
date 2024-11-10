@@ -388,8 +388,7 @@
 		D5C9EF5A2CE037D500798EC7 /* Topic.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C9EE912CE037D500798EC7 /* Topic.xcassets */; };
 		D5C9EF5C2CE037D500798EC7 /* unlike.lottie in Resources */ = {isa = PBXBuildFile; fileRef = D5C9EE8A2CE037D500798EC7 /* unlike.lottie */; };
 		D5C9EF5D2CE037D500798EC7 /* logo_splash.lottie in Resources */ = {isa = PBXBuildFile; fileRef = D5C9EE882CE037D500798EC7 /* logo_splash.lottie */; };
-		D5C9F0452CE0523C00798EC7 /* DSKit in Frameworks */ = {isa = PBXBuildFile; productRef = D5C9F0442CE0523C00798EC7 /* DSKit */; };
-		FE1186372A658A3B007E9DFA /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1186362A658A3B007E9DFA /* UIFont+Extension.swift */; };
+		D5C9F0472CE068A200798EC7 /* Tuist+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C9F0462CE068A200798EC7 /* Tuist+Font.swift */; };
 		FE69A29E2A66EB6D0038F129 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A29D2A66EB6D0038F129 /* SnapKit */; };
 		FE69A2A12A66EB910038F129 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2A02A66EB910038F129 /* Moya */; };
 		FE69A2A32A66EB910038F129 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = FE69A2A22A66EB910038F129 /* RxMoya */; };
@@ -806,8 +805,7 @@
 		D5C9EEEB2CE037D500798EC7 /* UIView+Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Util.swift"; sourceTree = "<group>"; };
 		D5C9EEEC2CE037D500798EC7 /* UIVIewControler+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIewControler+Utils.swift"; sourceTree = "<group>"; };
 		D5C9EEEE2CE037D500798EC7 /* TFWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFWebViewController.swift; sourceTree = "<group>"; };
-		D5C9F0432CE0471100798EC7 /* DSKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = DSKit; path = Falling/DSKit; sourceTree = "<group>"; };
-		FE1186362A658A3B007E9DFA /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		D5C9F0462CE068A200798EC7 /* Tuist+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuist+Font.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -848,7 +846,6 @@
 			files = (
 				FE69A2BC2A66EE050038F129 /* FirebaseMessaging in Frameworks */,
 				FE69A2AC2A66EC070038F129 /* RxCocoa in Frameworks */,
-				D5C9F0452CE0523C00798EC7 /* DSKit in Frameworks */,
 				FE69A2A32A66EB910038F129 /* RxMoya in Frameworks */,
 				FE69A2A12A66EB910038F129 /* Moya in Frameworks */,
 				FE69A2B42A66EC360038F129 /* Kingfisher in Frameworks */,
@@ -885,7 +882,6 @@
 		D53A215D2A5C27F700D3516F = {
 			isa = PBXGroup;
 			children = (
-				D5C9F0432CE0471100798EC7 /* DSKit */,
 				D53A21682A5C27F700D3516F /* Falling */,
 				D53A217F2A5C27F800D3516F /* FallingTests */,
 				D53A21892A5C27F800D3516F /* FallingUITests */,
@@ -2363,6 +2359,7 @@
 				D5C9EEEA2CE037D500798EC7 /* UITextField+Util.swift */,
 				D5C9EEEB2CE037D500798EC7 /* UIView+Util.swift */,
 				D5C9EEEC2CE037D500798EC7 /* UIVIewControler+Utils.swift */,
+				D5C9F0462CE068A200798EC7 /* Tuist+Font.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -2404,7 +2401,6 @@
 		D5C9EEF72CE037D500798EC7 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				FE1186362A658A3B007E9DFA /* UIFont+Extension.swift */,
 				D5C9EF692CE037DA00798EC7 /* Util */,
 				D5C9EEF62CE037D500798EC7 /* DesignSystem */,
 			);
@@ -2456,7 +2452,6 @@
 				FE69A2B92A66EE050038F129 /* FirebaseAuth */,
 				FE69A2BB2A66EE050038F129 /* FirebaseMessaging */,
 				FE69A2BD2A66EE050038F129 /* FirebaseStorage */,
-				D5C9F0442CE0523C00798EC7 /* DSKit */,
 			);
 			productName = Falling;
 			productReference = D53A21662A5C27F700D3516F /* Falling.app */;
@@ -2601,7 +2596,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE1186372A658A3B007E9DFA /* UIFont+Extension.swift in Sources */,
 				D5C9E5592CE0298100798EC7 /* UserProfilePhotoRes.swift in Sources */,
 				D5C9E55A2CE0298100798EC7 /* TokenProviderTarget.swift in Sources */,
 				D5C9E55B2CE0298100798EC7 /* MyPageTarget.swift in Sources */,
@@ -2752,6 +2746,7 @@
 				D5C9EC992CE02E6100798EC7 /* LocationRequest.swift in Sources */,
 				D5C9EC9A2CE02E6100798EC7 /* FallingHomeViewModel.swift in Sources */,
 				D5C9EC9C2CE02E6100798EC7 /* InterestEditVC.swift in Sources */,
+				D5C9F0472CE068A200798EC7 /* Tuist+Font.swift in Sources */,
 				D5C9EC9E2CE02E6100798EC7 /* FallingCoordinating.swift in Sources */,
 				D5C9EC9F2CE02E6100798EC7 /* SignUpCompleteViewModel.swift in Sources */,
 				D5C9ECA32CE02E6100798EC7 /* MySettingCoordinator.swift in Sources */,
@@ -3376,10 +3371,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FE69A2AA2A66EC070038F129 /* XCRemoteSwiftPackageReference "RxSwift" */;
 			productName = RxCocoa;
-		};
-		D5C9F0442CE0523C00798EC7 /* DSKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = DSKit;
 		};
 		FE69A29D2A66EB6D0038F129 /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class MySettingView: TFBaseView {
 
   var tableView: UITableView!

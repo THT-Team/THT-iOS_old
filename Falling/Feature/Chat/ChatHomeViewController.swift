@@ -7,9 +7,6 @@
 
 import UIKit
 
-import DSKit
-import ChatInterface
-
 final class ChatHomeViewController: TFBaseViewController {
   private lazy var mainView = ChatHomeView()
   private let viewModel: ChatHomeViewModel

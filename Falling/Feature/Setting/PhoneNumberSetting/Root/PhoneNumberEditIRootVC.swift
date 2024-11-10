@@ -8,9 +8,6 @@
 
 import UIKit
 
-import Core
-import DSKit
-
 struct SingleSettingModel {
   let header: String
   let footer: String

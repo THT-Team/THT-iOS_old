@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class TFTitleView: TFBaseView {
 
   init(title: String, subTitle: String) {

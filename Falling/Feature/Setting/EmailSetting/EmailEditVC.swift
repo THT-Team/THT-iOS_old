@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class EmailEditVC: TFBaseViewController {
   typealias ViewModel = EmailEdittVM
 

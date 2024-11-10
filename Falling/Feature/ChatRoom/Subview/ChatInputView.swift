@@ -7,9 +7,6 @@
 
 import UIKit
 
-import Core
-import DSKit
-
 final class ChatInputView: UIControl {
   lazy var attachButton: UIButton = {
     let button = UIButton(frame: .zero)

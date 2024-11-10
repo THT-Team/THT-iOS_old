@@ -7,9 +7,6 @@
 
 import UIKit
 
-import DSKit
-import AuthInterface
-
 public final class PhoneAuthVC<ViewModel>: TFBaseViewController, AuthVCType where ViewModel: AuthViewModelType {
 
   private lazy var codeInputView = UIView().then {
