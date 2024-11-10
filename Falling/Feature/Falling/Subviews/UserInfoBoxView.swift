@@ -7,7 +7,6 @@
 
 import UIKit
 
-import DSKit
 import FallingInterface
 
 final class UserInfoBoxView: TFBaseView {

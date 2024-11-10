@@ -7,7 +7,7 @@
 
 import UIKit
 
-import DSKit
+
 import SignUpInterface
 
 final class ReligionPickerCell: TFBaseCollectionViewCell {

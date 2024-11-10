@@ -9,7 +9,6 @@ import Foundation
 import MyPageInterface
 
 import Core
-import DSKit
 
 public final class MyPageAlertCoordinator: BaseCoordinator {
   public var delegate: MyPageAlertCoordinatorDelegate?

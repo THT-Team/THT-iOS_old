@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class EmailInputViewController: BaseSignUpVC<EmailInputViewModel> {
 
   private lazy var titleLable: UILabel = UILabel().then {

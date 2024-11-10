@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 //https://stackoverflow.com/questions/28140781/how-to-edit-the-uiblureffect-intensity
 class BlurEffectView: UIVisualEffectView {
 

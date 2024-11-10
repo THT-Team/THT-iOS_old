@@ -8,8 +8,6 @@
 
 import UIKit
 
-import DSKit
-
 final class LikeProfileViewController: TFBaseViewController {
   private lazy var mainView = ProfileView()
 

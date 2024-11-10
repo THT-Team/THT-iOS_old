@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class LocationInputView: TFBaseView {
   lazy var titleLabel = UILabel.setTargetBold(text: "현재 위치를 알려주세요.", target: "현재 위치를", font: .thtH1B, targetFont: .thtH1B)
 

@@ -7,7 +7,6 @@
 
 import UIKit
 import Core
-import DSKit
 
 final class ProfileView: TFBaseView {
 

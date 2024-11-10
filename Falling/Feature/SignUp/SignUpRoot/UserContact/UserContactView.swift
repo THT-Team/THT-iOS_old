@@ -7,7 +7,7 @@
 
 import UIKit
 
-import DSKit
+
 
 final class UserContactView: TFBaseView {
   lazy var titleLabel = UILabel().then {

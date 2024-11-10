@@ -7,7 +7,6 @@
 
 import UIKit
 
-import DSKit
 import SignUpInterface
 
 final class PolicyAgreementView: TFBaseView {

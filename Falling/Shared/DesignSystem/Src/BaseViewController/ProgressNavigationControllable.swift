@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import Core
 
 public protocol StageProgressable {
   var stage: Float { get set }

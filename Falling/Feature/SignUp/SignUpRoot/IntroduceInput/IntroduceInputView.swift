@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class IntroduceInputView: TFBaseView {
 
   lazy var titleLabel = UILabel.setTargetBold(text: "나를 알려주세요.", target: "나를 알려", font: .thtH1B, targetFont: .thtH1B)

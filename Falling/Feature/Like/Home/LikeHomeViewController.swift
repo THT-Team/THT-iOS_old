@@ -8,7 +8,6 @@
 import UIKit
 
 import Core
-import DSKit
 import LikeInterface
 
 public final class LikeHomeViewController: TFBaseViewController {

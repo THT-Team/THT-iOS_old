@@ -8,7 +8,6 @@
 import UIKit
 
 import Core
-import DSKit
 
 final class CardCircleTimerView: TFBaseView {
   private var gradientLayer: CAGradientLayer?

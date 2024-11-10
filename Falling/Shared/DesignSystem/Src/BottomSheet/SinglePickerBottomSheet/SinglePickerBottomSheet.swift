@@ -7,8 +7,6 @@
 
 import UIKit
 
-import Core
-
 import RxSwift
 import RxCocoa
 

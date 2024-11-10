@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 public protocol SelectableCellType {
   func updateCell(_ isSelected: Bool)
 }

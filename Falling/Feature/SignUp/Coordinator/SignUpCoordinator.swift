@@ -10,7 +10,6 @@ import Foundation
 import Core
 import SignUpInterface
 import AuthInterface
-import DSKit
 import Domain
 import SafariServices
 

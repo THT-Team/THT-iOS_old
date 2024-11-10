@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class DummyFooterView: UICollectionReusableView {
   private let backgroundGradientLayer = CAGradientLayer()
   private let borderGradientLayer = CAGradientLayer()

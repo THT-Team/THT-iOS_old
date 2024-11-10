@@ -7,7 +7,7 @@
 
 import UIKit
 
-import DSKit
+
 
 final class TFShimmerGradientView: TFBaseView {
   private var shapeLayer: CAShapeLayer?

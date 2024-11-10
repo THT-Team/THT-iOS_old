@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class IntroduceInputViewController: BaseSignUpVC<IntroduceInputViewModel>, StageProgressable {
   var stage: Float = 10
 

@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class NicknameView: TFBaseView {
 
   lazy var titleLabel = UILabel.setTargetBold(text: "닉네임을 알려주세요.", target: "닉네임", font: .thtH1B, targetFont: .thtH1B)

@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		56AF71762A6E36DF0064CF3F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 56AF71752A6E36DF0064CF3F /* FirebaseStorage */; };
 		56AF71782A6E37DD0064CF3F /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 56AF71772A6E37DD0064CF3F /* RxCocoa */; };
+		56FB0BA72CE06BEA00D2DA3E /* TuistAssets+DSKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FB0BA32CE06BEA00D2DA3E /* TuistAssets+DSKit.swift */; };
+		56FB0BA82CE06BEA00D2DA3E /* TuistFonts+DSKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FB0BA52CE06BEA00D2DA3E /* TuistFonts+DSKit.swift */; };
+		56FB0BA92CE06BEA00D2DA3E /* TuistLottie+DSKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FB0BA62CE06BEA00D2DA3E /* TuistLottie+DSKit.swift */; };
+		56FB0BAA2CE06BEA00D2DA3E /* TuistBundle+DSKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56FB0BA42CE06BEA00D2DA3E /* TuistBundle+DSKit.swift */; };
+		56FB0E102CE06D7400D2DA3E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 56FB0E0F2CE06D7400D2DA3E /* GoogleService-Info.plist */; };
 		D53A21812A5C27F800D3516F /* FallingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A21802A5C27F800D3516F /* FallingTests.swift */; };
 		D53A218B2A5C27F800D3516F /* FallingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A218A2A5C27F800D3516F /* FallingUITests.swift */; };
 		D53A218D2A5C27F800D3516F /* FallingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53A218C2A5C27F800D3516F /* FallingUITestsLaunchTests.swift */; };
@@ -422,6 +427,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		56FB0BA32CE06BEA00D2DA3E /* TuistAssets+DSKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistAssets+DSKit.swift"; sourceTree = "<group>"; };
+		56FB0BA42CE06BEA00D2DA3E /* TuistBundle+DSKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistBundle+DSKit.swift"; sourceTree = "<group>"; };
+		56FB0BA52CE06BEA00D2DA3E /* TuistFonts+DSKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistFonts+DSKit.swift"; sourceTree = "<group>"; };
+		56FB0BA62CE06BEA00D2DA3E /* TuistLottie+DSKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TuistLottie+DSKit.swift"; sourceTree = "<group>"; };
+		56FB0E0F2CE06D7400D2DA3E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D53A21662A5C27F700D3516F /* Falling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Falling.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53A21772A5C27F800D3516F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D53A217C2A5C27F800D3516F /* FallingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FallingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -808,34 +818,13 @@
 		D5C9F0462CE068A200798EC7 /* Tuist+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tuist+Font.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D5C9EF6F2CE037DB00798EC7 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"AccessabilityID+Util.swift",
-				AppData.swift,
-				"CollectionViewLayout+Util.swift",
-				"Date+Util.swift",
-				"DateFormatter+Util.swift",
-				"Int+Util.swift",
-				JSONStorage.swift,
-				"Regex+Util.swift",
-				"Rx+Util.swift",
-				Storage.swift,
-				"UIWindow+Util.swift",
-				ViewModelBindingProtocol.swift,
-			);
-			target = D53A21652A5C27F700D3516F /* Falling */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D5C9E3E42CE023FB00798EC7 /* Core */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Core; sourceTree = "<group>"; };
 		D5C9E58E2CE029D800798EC7 /* Application */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Application; sourceTree = "<group>"; };
 		D5C9E5902CE02A1D00798EC7 /* Domain */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Domain; sourceTree = "<group>"; };
 		D5C9EE3D2CE0309500798EC7 /* ChatRoom */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ChatRoom; sourceTree = "<group>"; };
 		D5C9EE522CE0313400798EC7 /* Coordinator */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Coordinator; sourceTree = "<group>"; };
-		D5C9EF692CE037DA00798EC7 /* Util */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (D5C9EF6F2CE037DB00798EC7 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Util; sourceTree = "<group>"; };
+		D5C9EF692CE037DA00798EC7 /* Util */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Util; sourceTree = "<group>"; };
 		D5C9EF702CE03D4800798EC7 /* TokenService */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = TokenService; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
@@ -2145,6 +2134,11 @@
 		D5C9EE922CE037D500798EC7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				56FB0E0F2CE06D7400D2DA3E /* GoogleService-Info.plist */,
+				56FB0BA32CE06BEA00D2DA3E /* TuistAssets+DSKit.swift */,
+				56FB0BA42CE06BEA00D2DA3E /* TuistBundle+DSKit.swift */,
+				56FB0BA52CE06BEA00D2DA3E /* TuistFonts+DSKit.swift */,
+				56FB0BA62CE06BEA00D2DA3E /* TuistLottie+DSKit.swift */,
 				D5C9EE852CE037D500798EC7 /* Font */,
 				D5C9EE8B2CE037D500798EC7 /* Lottie */,
 				D5C9EE8C2CE037D500798EC7 /* BX.xcassets */,
@@ -2568,6 +2562,7 @@
 				D5C9EF562CE037D500798EC7 /* Color.xcassets in Resources */,
 				D5C9EF572CE037D500798EC7 /* Pretendard-SemiBold.ttf in Resources */,
 				D5C9EF582CE037D500798EC7 /* Pretendard-ExtraBold.ttf in Resources */,
+				56FB0E102CE06D7400D2DA3E /* GoogleService-Info.plist in Resources */,
 				D5C9EF592CE037D500798EC7 /* Image.xcassets in Resources */,
 				D5C9EF5A2CE037D500798EC7 /* Topic.xcassets in Resources */,
 				D5C9EF5C2CE037D500798EC7 /* unlike.lottie in Resources */,
@@ -2814,6 +2809,10 @@
 				D5C9ED0D2CE02E6100798EC7 /* IntroduceInputViewController.swift in Sources */,
 				D5C9ED0E2CE02E6100798EC7 /* UserEditListener.swift in Sources */,
 				D5C9ED112CE02E6100798EC7 /* IntroduceInputView.swift in Sources */,
+				56FB0BA72CE06BEA00D2DA3E /* TuistAssets+DSKit.swift in Sources */,
+				56FB0BA82CE06BEA00D2DA3E /* TuistFonts+DSKit.swift in Sources */,
+				56FB0BA92CE06BEA00D2DA3E /* TuistLottie+DSKit.swift in Sources */,
+				56FB0BAA2CE06BEA00D2DA3E /* TuistBundle+DSKit.swift in Sources */,
 				D5C9ED122CE02E6100798EC7 /* AlcoholTobaccoPickerView.swift in Sources */,
 				D5C9ED132CE02E6100798EC7 /* PhoneAuthVC.swift in Sources */,
 				D5C9ED142CE02E6100798EC7 /* MyPageBuildable.swift in Sources */,

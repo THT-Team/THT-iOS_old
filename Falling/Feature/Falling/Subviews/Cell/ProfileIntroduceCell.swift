@@ -8,7 +8,6 @@
 import UIKit
 
 import Core
-import DSKit
 
 final class ProfileIntroduceCell: TFBaseCollectionViewCell {
   private lazy var textView: UITextView = {

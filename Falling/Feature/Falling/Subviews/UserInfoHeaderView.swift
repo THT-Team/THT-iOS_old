@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import DSKit
 
 final class UserInfoHeaderView: UICollectionReusableView {
   let titleLabel: UILabel = {

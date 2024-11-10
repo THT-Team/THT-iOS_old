@@ -7,7 +7,7 @@
 
 import UIKit
 
-import DSKit
+
 
 class ButtonPickerView: UIControl {
 
@@ -117,7 +117,7 @@ class ButtonPickerView: UIControl {
 
 #if canImport(SwiftUI) && DEBUG
 import SwiftUI
-import DSKit
+
 
 struct ButtonPickerViewPreview: PreviewProvider {
 

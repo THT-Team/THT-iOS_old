@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import DSKit
+
 
 public class TFButton: CTAButton {
   public override init(btnTitle: String, initialStatus: Bool) {

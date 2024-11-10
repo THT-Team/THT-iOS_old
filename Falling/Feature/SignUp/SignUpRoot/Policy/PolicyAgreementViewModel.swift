@@ -7,7 +7,6 @@
 
 import Foundation
 import SignUpInterface
-import DSKit
 import Core
 
 open class BasePenddingViewModel {

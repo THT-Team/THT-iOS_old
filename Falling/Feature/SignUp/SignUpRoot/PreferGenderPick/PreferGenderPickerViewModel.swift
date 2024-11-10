@@ -7,9 +7,6 @@
 
 import Foundation
 
-import Core
-import SignUpInterface
-
 import RxSwift
 import RxCocoa
 

@@ -7,7 +7,7 @@
 
 import UIKit
 
-import DSKit
+
 
 final class ReligionPickerView: TFBaseView {
   lazy var titleLabel = UILabel.setTargetBold(text: "종교를 알려주세요", target: "종교", font: .thtH1B, targetFont: .thtH1B)

@@ -8,7 +8,6 @@
 import Foundation
 import SignUpInterface
 import MyPageInterface
-import DSKit
 
 struct MyPageInfoCollectionViewCellViewModel {
   let model: MyPageSection

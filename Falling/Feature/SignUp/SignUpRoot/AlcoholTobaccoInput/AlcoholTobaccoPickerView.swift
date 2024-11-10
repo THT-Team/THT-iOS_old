@@ -7,7 +7,6 @@
 
 import UIKit
 import SignUpInterface
-import DSKit
 import RxSwift
 
 class AlcoholTobaccoPickerView: TFBaseView {

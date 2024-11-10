@@ -12,7 +12,6 @@ import SignUpInterface
 
 import RxSwift
 import RxCocoa
-import DSKit
 import Domain
 
 open class BaseTagPickerViewModel: BasePenddingViewModel {

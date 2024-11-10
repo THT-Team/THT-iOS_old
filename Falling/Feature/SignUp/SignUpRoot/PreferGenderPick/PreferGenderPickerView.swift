@@ -6,7 +6,6 @@
 //
 import UIKit
 
-import DSKit
 import RxSwift
 import SignUpInterface
 

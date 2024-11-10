@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 open class PauseView: TFBaseView {
   private lazy var blurView: UIVisualEffectView = {
     let effect = UIBlurEffect(style: .dark)

@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 class HeightPickerView: TFBaseView {
   lazy var titleLabel = UILabel.setTargetBold(text: "키를 입력해주세요.", target: "키", font: .thtH1B, targetFont: .thtH1B)
 

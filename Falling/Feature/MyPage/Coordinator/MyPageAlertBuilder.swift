@@ -6,7 +6,6 @@
 //
 
 import Foundation
-import DSKit
 import MyPageInterface
 
 public final class MyPageAlertBuilder: MyPageAlertBuildable {

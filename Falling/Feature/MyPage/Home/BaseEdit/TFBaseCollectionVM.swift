@@ -12,7 +12,6 @@ import Core
 import RxSwift
 import RxCocoa
 
-import DSKit
 import MyPageInterface
 
 public protocol ProcessUseCaseProtocol {

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-import DSKit
+
 
 final class SignUpCompleteViewController: BaseSignUpVC<SignUpCompleteViewModel> {
 

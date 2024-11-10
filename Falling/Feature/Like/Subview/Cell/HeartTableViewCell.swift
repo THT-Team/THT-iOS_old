@@ -7,10 +7,6 @@
 
 import UIKit
 
-import Core
-import DSKit
-import LikeInterface
-
 final class HeartCollectionViewCell: UICollectionViewListCell {
   var disposeBag = DisposeBag()
 

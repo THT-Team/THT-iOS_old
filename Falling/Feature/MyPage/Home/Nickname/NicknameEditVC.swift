@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import DSKit
 
 final class NicknameEditVC: TFBaseViewController {
   typealias ViewModel = NicknameEditVM

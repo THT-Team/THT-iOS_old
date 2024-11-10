@@ -7,7 +7,6 @@
 
 import UIKit
 
-import DSKit
 import Core
 
 final class TagsPickerViewController: TFBaseViewController {

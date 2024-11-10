@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class  NicknameInputViewController: BaseSignUpVC<NicknameInputViewModel>, StageProgressable {
   fileprivate let mainView = NicknameView()
   var stage: Float = 1

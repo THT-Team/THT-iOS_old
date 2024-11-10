@@ -5,8 +5,6 @@
 //  Created by Kanghos on 2023/12/20.
 //
 
-import Domain
-
 enum ProfileDetailSection {
   case interest
   case idealType

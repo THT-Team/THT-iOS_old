@@ -12,7 +12,6 @@ import SignUpInterface
 
 import RxSwift
 import RxCocoa
-import DSKit
 
 final class GenderPickerViewModel: BasePenddingViewModel, ViewModelType {
 

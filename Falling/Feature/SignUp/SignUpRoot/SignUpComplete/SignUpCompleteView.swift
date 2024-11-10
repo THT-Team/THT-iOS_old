@@ -7,7 +7,7 @@
 
 import UIKit
 
-import DSKit
+
 
 final class SignUpCompleteView: TFBaseView {
 

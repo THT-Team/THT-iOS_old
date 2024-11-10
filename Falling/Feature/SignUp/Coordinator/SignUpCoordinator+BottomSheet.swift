@@ -7,11 +7,6 @@
 
 import Foundation
 
-import Core
-import SignUpInterface
-
-import DSKit
-
 extension SignUpCoordinator: PickerBottomSheetCoordinator {
   public func pickerBottomSheetFlow(_ item: BottomSheetValueType, listener: BottomSheetListener) {
     let vm = PickerBottomSheetViewModel(initialValue: item)

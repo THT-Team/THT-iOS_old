@@ -8,7 +8,6 @@
 import UIKit
 
 import Core
-import DSKit
 import FallingInterface
 import Domain
 

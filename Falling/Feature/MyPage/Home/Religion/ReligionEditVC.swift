@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class ReligionEditVC: TFBaseCollectionViewVC<ReligionEditVM, TFSelectableCVCell> {
 
   private let _titleLabel = UILabel.setH4TargetBold(text: "종교 를 선택해주세요.", target: "종교")

@@ -8,7 +8,6 @@
 import Foundation
 
 import Core
-import DSKit
 import SignUpInterface
 
 import RxSwift

@@ -9,8 +9,6 @@ import Foundation
 
 import UIKit
 
-import DSKit
-
 final class TFCarouselView: TFBaseView {
 
   lazy var carouselView = TFBaseCollectionView(frame: .zero, collectionViewLayout: createLayout())

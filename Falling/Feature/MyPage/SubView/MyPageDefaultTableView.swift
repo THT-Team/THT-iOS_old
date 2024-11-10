@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 class MyPageDefaultTableView<CellType: MyPageDefaultTableViewCell>: TFBaseView {
 
   lazy var tableView = UITableView(frame: .zero, style: .insetGrouped).then {

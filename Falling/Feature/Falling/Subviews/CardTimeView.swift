@@ -8,7 +8,6 @@
 import UIKit
 
 import Core
-import DSKit
 
 final class CardTimeView: TFBaseView {
   lazy var containerView: UIView = {

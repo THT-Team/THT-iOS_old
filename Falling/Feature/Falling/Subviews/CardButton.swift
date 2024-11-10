@@ -7,7 +7,6 @@
 
 import UIKit
 
-import DSKit
 
 final class CardButton: UIButton {
   

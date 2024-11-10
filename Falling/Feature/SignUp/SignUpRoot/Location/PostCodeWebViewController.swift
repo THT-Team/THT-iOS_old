@@ -9,7 +9,6 @@ import UIKit
 import WebKit
 
 import Core
-import DSKit
 import SignUpInterface
 
 public class PostCodeWebViewController: TFBaseViewController {

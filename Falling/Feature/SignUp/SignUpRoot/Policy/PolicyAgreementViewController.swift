@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 final class PolicyAgreementViewController: BaseSignUpVC<PolicyAgreementViewModel> {
 
   private lazy var customView = PolicyAgreementView()

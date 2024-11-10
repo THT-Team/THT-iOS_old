@@ -7,7 +7,6 @@
 
 import UIKit
 
-import DSKit
 import RxGesture
 
 final class LocationInputViewController: BaseSignUpVC<LocationInputViewModel>, StageProgressable {

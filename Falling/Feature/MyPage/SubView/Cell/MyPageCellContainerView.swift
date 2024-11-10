@@ -7,8 +7,6 @@
 
 import UIKit
 
-import DSKit
-
 import Then
 import SnapKit
 import MyPageInterface

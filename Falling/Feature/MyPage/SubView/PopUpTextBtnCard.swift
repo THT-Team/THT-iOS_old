@@ -7,7 +7,6 @@
 
 import UIKit
 
-import DSKit
 
 public class TFPopUpTextBtnCard: TFBaseView {
   private let title: String
