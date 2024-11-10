@@ -12,7 +12,7 @@ import PhotosUI
 
 import RxSwift
 import RxCocoa
-import SignUpInterface
+
 
 
 enum PhotoAlertAction {

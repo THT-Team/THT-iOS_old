@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SignUpInterface
+
 import MyPageInterface
 
 struct MyPageInfoCollectionViewCellViewModel {

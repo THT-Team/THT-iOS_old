@@ -7,7 +7,7 @@
 
 import UIKit
 
-import SignUpInterface
+
 
 final class PolicyAgreementView: TFBaseView {
   private lazy var logoView: UIImageView = UIImageView().then {

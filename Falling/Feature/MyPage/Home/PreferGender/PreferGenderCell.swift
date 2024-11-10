@@ -7,7 +7,7 @@
 
 import UIKit
 
-import SignUpInterface
+
 
 
 final class PreferGenderCell: TFBaseCollectionViewCell, SelectableCellType, textBindable {

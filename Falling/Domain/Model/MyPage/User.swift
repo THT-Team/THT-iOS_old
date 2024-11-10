@@ -7,7 +7,7 @@
 
 import Foundation
 
-import SignUpInterface
+
 
 public struct User {
   public let age: Int

@@ -8,7 +8,7 @@
 import UIKit
 
 
-import SignUpInterface
+
 
 final class ServiceAgreementRowView: UITableViewCell {
 

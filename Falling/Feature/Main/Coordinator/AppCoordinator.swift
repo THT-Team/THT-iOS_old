@@ -9,7 +9,7 @@ import UIKit
 import Foundation
 
 
-import SignUpInterface
+
 import AuthInterface
 import Auth
 import KakaoSDKAuth

@@ -7,7 +7,7 @@
 
 import UIKit
 
-import SignUpInterface
+
 import MyPageInterface
 
 import RxCocoa

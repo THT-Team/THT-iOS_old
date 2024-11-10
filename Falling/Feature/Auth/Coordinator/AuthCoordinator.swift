@@ -9,7 +9,7 @@ import Foundation
 
 
 import AuthInterface
-import SignUpInterface
+
 
 protocol AuthCoordinatingActionDelegate: AnyObject {
   func invoke(_ action: AuthCoordinatingAction)

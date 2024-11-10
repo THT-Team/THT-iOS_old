@@ -9,7 +9,7 @@ import UIKit
 
 import RxSwift
 import RxCocoa
-import SignUpInterface
+
 import MyPageInterface
 
 

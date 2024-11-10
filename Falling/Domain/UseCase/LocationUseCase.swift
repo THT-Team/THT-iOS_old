@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import SignUpInterface
+
 import AuthInterface
 
 import RxSwift

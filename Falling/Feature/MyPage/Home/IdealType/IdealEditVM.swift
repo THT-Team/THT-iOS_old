@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 
 
-import SignUpInterface
+
 import MyPageInterface
 
 final class IdealEditVM: TFBaseEmojiEditVM {

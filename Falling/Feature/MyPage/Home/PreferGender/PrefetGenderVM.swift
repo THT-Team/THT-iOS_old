@@ -11,7 +11,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 import MyPageInterface
-import SignUpInterface
+
 
 struct PreferGenderItemVM {
   let value: Gender

@@ -9,7 +9,7 @@ import UIKit
 
 import RxSwift
 import RxCocoa
-import SignUpInterface
+
 
 public protocol TFCellSizeCalculable {
   func cellSize(width: CGFloat, spacing: CGFloat) -> CGSize

@@ -8,7 +8,7 @@
 import UIKit
 
 import RxSwift
-import SignUpInterface
+
 
 class GenderPickerView: TFBaseView {
 
