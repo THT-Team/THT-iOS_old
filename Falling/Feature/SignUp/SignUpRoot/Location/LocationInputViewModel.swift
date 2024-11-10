@@ -12,7 +12,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-import AuthInterface
+
 
 final class LocationInputViewModel: BasePenddingViewModel, ViewModelType {
 

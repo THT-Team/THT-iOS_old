@@ -8,7 +8,7 @@
 import Foundation
 
 
-import AuthInterface
+
 
 
 protocol AuthCoordinatingActionDelegate: AnyObject {

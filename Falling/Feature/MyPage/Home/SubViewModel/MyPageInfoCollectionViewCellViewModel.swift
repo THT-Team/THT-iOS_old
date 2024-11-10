@@ -7,7 +7,7 @@
 
 import Foundation
 
-import MyPageInterface
+
 
 struct MyPageInfoCollectionViewCellViewModel {
   let model: MyPageSection

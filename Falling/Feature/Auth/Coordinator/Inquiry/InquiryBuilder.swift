@@ -8,7 +8,7 @@
 import Foundation
 
 
-import AuthInterface
+
 
 public final class InquiryBuilder: InquiryBuildable {
 

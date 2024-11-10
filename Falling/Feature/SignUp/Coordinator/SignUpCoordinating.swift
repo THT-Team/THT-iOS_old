@@ -8,7 +8,7 @@
 import Foundation
 
 
-import AuthInterface
+
 
 public protocol SignUpAlertCoordinating {
   func showTopBottomAlert(_ listener: TopBottomAlertListener)

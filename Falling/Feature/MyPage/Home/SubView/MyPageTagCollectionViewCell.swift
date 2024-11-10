@@ -10,7 +10,7 @@ import UIKit
 import Then
 import SnapKit
 
-import MyPageInterface
+
 
 final class MyPageTagCollectionViewCell: TFBaseCollectionViewCell {
   var model: MyPageInfoCollectionViewCellViewModel?

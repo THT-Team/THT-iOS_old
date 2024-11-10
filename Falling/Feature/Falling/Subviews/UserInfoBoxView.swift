@@ -7,7 +7,7 @@
 
 import UIKit
 
-import FallingInterface
+
 
 final class UserInfoBoxView: TFBaseView {
 //  lazy var pageControl: UIPageControl = {

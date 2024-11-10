@@ -8,7 +8,7 @@
 import UIKit
 
 
-import LikeInterface
+
 
 public final class LikeHomeViewController: TFBaseViewController {
   private lazy var mainView = HeartListView()

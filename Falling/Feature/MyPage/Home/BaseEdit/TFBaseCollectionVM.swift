@@ -12,7 +12,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-import MyPageInterface
+
 
 public protocol ProcessUseCaseProtocol {
   associatedtype ModelType: RawRepresentable & CaseIterable where ModelType.RawValue == String

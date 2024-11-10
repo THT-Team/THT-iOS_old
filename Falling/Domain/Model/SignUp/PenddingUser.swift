@@ -8,7 +8,7 @@
 import Foundation
 
 
-import AuthInterface
+
 
 public struct PendingUser: Codable {
   public var phoneNumber: String

@@ -7,7 +7,7 @@
 
 import Foundation
 
-import AuthInterface
+
 
 
 public final class PhoneInputVM: ViewModelType, PhoneNumberVMType {

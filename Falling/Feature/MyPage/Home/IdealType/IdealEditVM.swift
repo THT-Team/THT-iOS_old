@@ -12,7 +12,7 @@ import RxCocoa
 
 
 
-import MyPageInterface
+
 
 final class IdealEditVM: TFBaseEmojiEditVM {
   

@@ -9,7 +9,7 @@ import UIKit
 
 import Then
 import SnapKit
-import MyPageInterface
+
 
 final class MyPageDefaultCollectionViewCell: TFBaseCollectionViewCell {
 

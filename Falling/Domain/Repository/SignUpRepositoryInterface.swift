@@ -8,7 +8,7 @@
 import Foundation
 
 import RxSwift
-import AuthInterface
+
 
 
 public protocol SignUpRepositoryInterface {

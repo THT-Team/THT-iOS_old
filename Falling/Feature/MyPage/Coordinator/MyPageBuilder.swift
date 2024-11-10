@@ -7,8 +7,8 @@
 
 import Foundation
 
-import MyPageInterface
-import AuthInterface
+
+
 
 
 public protocol MyPageDependency {

@@ -9,7 +9,7 @@ import Foundation
 
 
 
-import MyPageInterface
+
 
 import RxSwift
 import RxCocoa

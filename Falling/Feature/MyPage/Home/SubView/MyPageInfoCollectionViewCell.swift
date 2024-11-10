@@ -9,7 +9,7 @@ import UIKit
 
 import Then
 import SnapKit
-import MyPageInterface
+
 
 enum MyPage {
   enum CellType {

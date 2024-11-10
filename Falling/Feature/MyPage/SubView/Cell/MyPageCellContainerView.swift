@@ -9,7 +9,7 @@ import UIKit
 
 import Then
 import SnapKit
-import MyPageInterface
+
 
 // MARK: Falling Cell Layout이 섹션 레이아웃인데 섹션이 아니고 셀이라서 셀 사이 간격을 위해 custom 개발함.
 

@@ -9,7 +9,7 @@ import Foundation
 
 import RxSwift
 import RxCocoa
-import AuthInterface
+
 import KakaoSDKAuth
 import KakaoSDKUser
 

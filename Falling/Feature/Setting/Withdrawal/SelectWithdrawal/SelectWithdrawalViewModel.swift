@@ -12,7 +12,7 @@ import RxCocoa
 
 
 
-import MyPageInterface
+
 
 final class SelectWithdrawalViewModel: ViewModelType {
   weak var delegate: MySettingCoordinatingActionDelegate?

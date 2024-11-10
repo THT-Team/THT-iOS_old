@@ -7,7 +7,7 @@
 
 import UIKit
 
-import LikeInterface
+
 
 
 final class LikeProfileInfoReusableView: UICollectionReusableView {

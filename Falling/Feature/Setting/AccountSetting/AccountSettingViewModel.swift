@@ -13,7 +13,7 @@ import Foundation
 import RxSwift
 import RxCocoa
 
-import MyPageInterface
+
 
 final class AccountSettingViewModel: ViewModelType {
   private var disposeBag = DisposeBag()

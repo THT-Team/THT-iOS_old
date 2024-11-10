@@ -7,9 +7,9 @@
 
 import Foundation
 
-import MyPageInterface
 
-import AuthInterface
+
+
 
 import PhotosUI
 

@@ -13,7 +13,7 @@ import RxSwift
 import RxCocoa
 
 
-import AuthInterface
+
 
 final class SignUpCompleteViewModel: BasePenddingViewModel, ViewModelType {
   private let contacts: [ContactType]

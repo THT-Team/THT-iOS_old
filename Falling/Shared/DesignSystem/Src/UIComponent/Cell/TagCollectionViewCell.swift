@@ -7,7 +7,7 @@
 
 import UIKit
 
-//import LikeInterface
+//
 
 public final class TagCollectionViewCell: UICollectionViewCell {
   private lazy var stackView: UIStackView = {

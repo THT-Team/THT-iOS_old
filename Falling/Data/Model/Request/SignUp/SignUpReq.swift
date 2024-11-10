@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import AuthInterface
+
 
 extension PendingUser {
   public func toRequest(contacts: [ContactType], deviceKey: String) -> SignUpReq? {

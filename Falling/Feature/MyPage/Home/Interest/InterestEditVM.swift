@@ -12,7 +12,7 @@ import RxCocoa
 
 
 
-import MyPageInterface
+
 
 final class InterestEditVM: TFBaseEmojiEditVM {
   override func fetch(initial: [Int]) -> Driver<[TFBaseEmojiEditVM.ItemVMType]> {

@@ -13,7 +13,7 @@ import RxSwift
 import RxCocoa
 
 
-import AuthInterface
+
 
 final class UserContactViewModel: BasePenddingViewModel, ViewModelType {
 

@@ -11,7 +11,7 @@ import Foundation
 
 import RxSwift
 import RxCocoa
-import MyPageInterface
+
 
 public protocol EmailEditDelegate: AnyObject {
   func didEmailTap(_ email: String)

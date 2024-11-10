@@ -9,16 +9,16 @@ import Foundation
 
 
 
-import FallingInterface
+
 import Falling
 
-import LikeInterface
+
 import Like
 
 import ChatInterface
 import Chat
 
-import MyPageInterface
+
 import MyPage
 
 protocol MainViewControllable: ViewControllable {

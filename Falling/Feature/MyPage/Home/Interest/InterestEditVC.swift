@@ -10,7 +10,7 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-import MyPageInterface
+
 
 
 extension Domain.EmojiType: EmojiPropertyType { }

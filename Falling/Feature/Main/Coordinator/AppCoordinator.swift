@@ -10,7 +10,7 @@ import Foundation
 
 
 
-import AuthInterface
+
 import Auth
 import KakaoSDKAuth
 import KakaoSDKUser

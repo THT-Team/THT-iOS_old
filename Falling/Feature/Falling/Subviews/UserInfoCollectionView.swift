@@ -8,7 +8,7 @@
 import UIKit
 
 
-import FallingInterface
+
 
 
 final class UserInfoView: TFBaseView {

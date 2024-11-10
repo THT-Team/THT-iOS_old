@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import MyPageInterface
+
 
 public final class MyPageAlertBuilder: MyPageAlertBuildable {
 

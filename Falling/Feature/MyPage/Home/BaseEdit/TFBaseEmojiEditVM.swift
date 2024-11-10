@@ -11,7 +11,7 @@ import RxSwift
 import RxCocoa
 
 
-import MyPageInterface
+
 
 public protocol EmojiPropertyType {
   var emojiCode: String { get }
